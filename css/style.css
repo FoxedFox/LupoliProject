@@ -1,0 +1,552 @@
+body {
+  padding-left: 280px;
+  font-family:Montserrat;
+  background: #e6e6e6;
+}
+
+img {
+  max-width: 100%;
+  position: relative;
+}
+*{margin:0;padding:0;}
+
+/* zagolovki*/
+
+.centred_headers
+{
+  text-align: center;  
+  color: #898989;
+}
+h1{
+  color: #2F8CE9;
+  font-size: 3em;
+}
+h2{
+  font-size: 80%;
+  font-weight: normal;
+}
+.gridheaders
+{
+  font-size: 3em;
+  font-weight: normal;
+}
+/* setka*/
+.container {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card {
+  width: 250px;
+  height: 210px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: red;
+}
+.wisdom{
+    background-image: url(../img/anyproduct.jpg); /* "мудрая" заглушка*/
+}
+/* bokovoe menu*/
+.sidebar {
+  height: 100vh;
+  width: 280px;
+  background: #ccc;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+}
+.sidebar .avatar {
+  text-align: center;
+   width: 280px;
+  height: 180px;
+   background-image: url(../img/mainlogo.png);
+   background-size: 100%;
+     background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.sidebar .avatar img {
+  width: 280px;
+  height: 200px;
+  overflow: hidden;
+}
+.sidebar__menu {
+  padding: 0 30px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: space-around;
+  font-size: 18px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  color: #898989;
+}
+.sidebar__menu a {
+  color: currentcolor;
+  text-decoration: none;
+}
+.sidebar__social {
+  display: flex;
+  list-style: none;
+  padding: 0 30px;
+   align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.sidebar__social li {
+  height: 50px;
+  width: 50px;
+}
+.sidebar__social a {
+padding: 0 30px; 
+display: flex;
+flex-direction: column; 
+flex: 1; 
+justify-content: space-around;
+font-size: 20px;
+color: #898989;
+}
+
+/*меню мобильное*/
+.mobilemenu
+{
+    position: fixed !important;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding-top: 0;
+    z-index: 1030;
+    background: #DAD8DE;
+    display: none;
+    height: 50px;
+
+}
+
+.mobilelogo
+{
+  position: absolute;
+  top: 0px;
+  left: 2px;
+  height: 50px;
+   background-image: url(../img/mobilelogo.png);
+   width: 300px;
+   background-repeat: no-repeat;
+   background-size: 100%;
+}
+
+/*кнопка узнать больше*/
+.seemore
+{
+text-align: center;
+}
+/*кнопка сделать заказ*/
+.OrderButton {
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  color: inherit;
+  display: inline-block;
+  font: inherit;
+  height: auto;
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+}
+.OrderButton:focus {
+  outline: none;
+}
+
+.OrderButton::-moz-focus-inner {
+  border: 0;
+}
+.Button-inner {
+  align-items: center;
+  border: 2px solid #79e92f;
+  border-radius: 99em;
+  color: #79e92f;
+  font-weight: 600;
+  display: flex;
+  height: 2.5em;
+  min-width: 2.5em;
+  padding: 0 4em;
+  position: relative;
+  transition: 0.2s ease;
+  
+}
+.OrderButton:focus .Button-inner {
+  border-color: #fff;
+  box-shadow: 0 0 0 2px #79E92F;
+}
+.OrderButton:hover .Button-inner {
+  filter: brightness(1.1);
+}
+.OrderButton:active .Button-inner {
+  filter: brightness(0.9);
+}
+
+/*меню мобильной версии*/
+
+#nav-icon4 {
+    width: 45px;
+    height: 40px;
+    position: absolute;
+    margin: 2px auto;
+    transform: rotate(0deg);
+    transition: .5s ease-in-out;
+    cursor: pointer;
+    right: 3px;
+    top:3px;
+
+}
+#nav-icon4 span {
+    display: block;
+    position: absolute;
+    height: 5px;
+    width: 100%;
+    background: #79E92F;
+    border-radius: 2px;
+    opacity: 1;
+    left: 0;
+    transform: rotate(0deg);
+    transition: .25s ease-in-out;
+}
+#nav-icon4 span:nth-child(1) {
+    top: 0px;
+    transform-origin: left center;
+}
+#nav-icon4 span:nth-child(2) {
+    top: 12px;
+    transform-origin: left center;
+}
+#nav-icon4 span:nth-child(3) {
+    top: 24px;
+    transform-origin: left center;
+}
+#nav-icon4.open span:nth-child(1) {
+    transform: rotate(45deg);
+    
+    
+}
+#nav-icon4.open span:nth-child(2) {
+    width: 0%;
+    opacity: 0;
+}
+#nav-icon4.open span:nth-child(3) {
+    transform: rotate(-45deg);
+    top: 30px;
+    
+}
+
+
+.center-div {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 50px;
+
+}
+
+.siblings {
+  cursor: pointer;
+  display: block;
+ 
+}
+
+.siblings > li span {
+  padding: 1em;
+  display: inline-block;
+  color: #333;
+  width: 100%;
+
+}
+
+.siblings li.pagenav {
+  display: block;
+  background: #fff;
+  position: relative;
+  z-index: 500;
+  width: 100%;
+   background: #DAD8DE;
+}
+  span {
+    text-align: center;
+  }
+
+  a {
+    display: block;
+    padding: 6px 5px 0 5px;
+    height: 20px;
+    text-decoration: none;
+    color: #333;
+    text-align: center;
+  }
+
+ 
+
+  ul {
+    position: relative;
+    left: 0;
+    padding: 0;
+    display: none;
+    list-style: none;
+    width: 100%;
+}
+    a {
+      display: block;
+      height: auto;
+      padding: 15px;
+      color: #333;
+      text-align: left;
+    }
+  }
+
+  ul li {
+    border-top: 1px solid #fff;
+    width: 100%;
+}
+    .children {
+      display: block;
+    }
+
+  .children {
+    position: relative;
+}
+
+/*адаптив*/
+
+
+@media screen and (max-width: 805px) {
+  body {
+    padding-left: 0;
+    padding-top: 50px;
+  }
+  .sidebar {
+display: none;
+  }
+  .mobilemenu
+  {
+    display:flex;
+  } 
+  a:hover {
+    background-color: #BABABA;
+    color: #fff;
+  }
+
+}
+
+
+.feedback {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  line-height: 1.2;
+  background: rgba(0, 0, 0, 0.8);
+  justify-content: center; /* чтобы контейнер */
+  align-items: center; /* был по центру */
+}
+
+/* Ограничиваем контейнер по ширине 1000px */
+.feedback_container {
+  width: 100%;
+  max-width: 1000px;
+  padding: 0 20px;
+}
+
+/* Стили самой формы */
+.feedback_content {
+  display: flex; /* делаем колонки в ряд */
+  align-items: center; /* выравниваем по центру */
+  justify-content: space-between; /* колонки растянутся на всю ширину */
+  background: #fff;
+  padding: 40px;
+  border-radius: 5px;
+  box-shadow: 4px 4px 8px 0 rgba(34, 60, 80, 0.2);
+}
+
+/* Стили левой колонки */
+.left-side {
+  width: 25%; /* занимает 25% общей ширины */
+  height: 100%; /* растягиваем на всю высоту */
+  position: relative; /* позиционирование относительное (для ::before) */
+  display: flex;
+  flex-direction: column; /* внутри элементы располагаем в колонку */
+}
+
+/* Стили разделительной линии между левой и правой колонкой */
+.left-side::before {
+  content: ""; /* контент нам не нужен */
+  position: absolute; /* позиционируем относительно .left-side */
+  height: 70%; /* высота 70% от .left-side */
+  width: 2px; /* ширина 2px */
+  background: #afafb6;
+  right: -15px; /* позиционируем справа + отступ 15px (справа) */
+  top: 50%; /* выравниваем по центру */
+  transform: translateY(-50%); /* выравниваем по центру */
+}
+
+/* Стили правой колонки */
+.right-side {
+  width: 75%; /* занимает 75% общей ширины */
+  margin-left: 75px;
+}
+
+/* Элементы левой колонки: адрес, телефон, email */
+.details {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* Общие стили для иконок */
+.details i {
+  font-size: 25px; /* задаем размер */
+  color: #79e92f; /* задаем цвет */
+  margin-bottom: 10px;
+}
+
+/* Стили для заголовков левой колонки */
+.topic {
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 7px; /* отступ снизу 7px */
+}
+
+/* Стили для текста левой колонки */
+.feedback_text {
+  font-size: 14px;
+  color: #898989;
+}
+
+/* Заголовок правой колонки */
+.topic-text {
+  font-size: 23px;
+  font-weight: 600;
+  color: #79e92f;
+  margin-bottom: 10px;
+}
+
+/* Текст правой колонки */
+.right-side p {
+  margin-bottom: 20px;
+}
+
+/* Контейнер для input'ов формы */
+.input-box {
+  height: 50px; /* по сути задаем высоту input'а */
+  width: 100%; /* ширина на всю ширину правой колонки (с учетом padding) */
+  margin-bottom: 20px; /* отступаем снизу 20px */
+}
+
+/* Стили для input и textarea (поле сообщение) */
+.input-box input,
+.input-box textarea {
+  height: 80%; /* растягиваем на всю высоту контейнера 50px */
+  width: 95%; /* растягиваем на всю ширину */
+  border: none; /* убираем внешние края */
+  border-radius: 5px; /* скругляем края */
+  background: #f0f1f8; /* задаем цвет фона */
+  padding: 0 20px; /* отступ справа и слева 20px */
+}
+
+/* Отдельно стилизуем поле сообщение */
+.input-box textarea {
+  resize: none; /* чтобы нельзя было менять высоту */
+  padding: 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Это контейнер для поля сообщение */
+.message-box {
+  min-height: 110px; /* минимальная высота 110px */
+}
+
+/* Стили для контейнера кнопки */
+.feedback_button {
+  display: inline-block; /* делаем блочно-строчный элемент */
+}
+
+/* Стили для самой кнопки */
+.feedback_button input[type="feedback_button"] {
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  background: #79e92f;
+  outline: none;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 7px;
+  transition: 0.2s; /* чтобы плавно менялся цвет при наведении (:hover) */
+}
+
+/* Меняем цвет фона при наведении на кнопку */
+.feedback_button input[type="feedback_button"]:hover {
+  background: rgb(0, 0, 207);
+}
+/* The Close Button */
+.closefeedback {
+  color: #aaaaaa;
+  float: right;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.closefeedback:hover,
+.closefeedback:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Меняем стили при ширине экрана меньше 800px */
+@media (max-width: 805px) {
+  /* Теперь форма (правая колонка) будет сверху, а элементы (левая колонка) снизу */
+  .feedback
+  {
+     padding-top: 50px;
+  }
+  .feedback_content {
+   
+    height: 90%;
+    flex-direction: column-reverse; /* располагаем в колонку и реверсивно */
+  }
+
+  /* Внутри левой колонки внутренние элементы располагаем в ряд */
+  .left-side {
+    margin-top: 50px;
+    flex-direction: row; /* располагаем элементы (адрес, телефон, email) в ряд */
+    width: 100%; /* левая колонка на всю ширину */
+    justify-content: center;
+    flex-wrap: wrap; /* перенос элементов, если не хватит места */
+  }
+  .details {
+    margin-right: 20px;
+  }
+  .details:last-child {
+    margin-right: 0;
+  }
+
+  /* Убираем разделительную линию */
+  .left-side::before {
+    display: none;
+  }
+
+  /* Правая колонка теперь на всю ширину и не имеет отступа слева */
+  .right-side {
+    width: 100%;
+    margin-left: 0;
+  }
+}
