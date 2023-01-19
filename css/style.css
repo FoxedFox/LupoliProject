@@ -3,7 +3,6 @@ body {
   font-family:Montserrat;
   background: #e6e6e6;
 }
-
 img {
   max-width: 100%;
   position: relative;
@@ -322,29 +321,6 @@ text-align: center;
     position: relative;
 }
 
-/*адаптив*/
-
-
-@media screen and (max-width: 805px) {
-  body {
-    padding-left: 0;
-    padding-top: 50px;
-  }
-  .sidebar {
-display: none;
-  }
-  .mobilemenu
-  {
-    display:flex;
-  } 
-  a:hover {
-    background-color: #BABABA;
-    color: #fff;
-  }
-
-}
-
-
 .feedback {
   display: none;
   position: fixed;
@@ -372,7 +348,7 @@ display: none;
   align-items: center; /* выравниваем по центру */
   justify-content: space-between; /* колонки растянутся на всю ширину */
   background: #fff;
-  padding: 40px;
+  padding: 20px;
   border-radius: 5px;
   box-shadow: 4px 4px 8px 0 rgba(34, 60, 80, 0.2);
 }
@@ -436,7 +412,7 @@ display: none;
   font-size: 23px;
   font-weight: 600;
   color: #79e92f;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 /* Текст правой колонки */
@@ -448,7 +424,7 @@ display: none;
 .input-box {
   height: 50px; /* по сути задаем высоту input'а */
   width: 100%; /* ширина на всю ширину правой колонки (с учетом padding) */
-  margin-bottom: 20px; /* отступаем снизу 20px */
+  margin-bottom: 10px; /* отступаем снизу 20px */
 }
 
 /* Стили для input и textarea (поле сообщение) */
@@ -459,13 +435,13 @@ display: none;
   border: none; /* убираем внешние края */
   border-radius: 5px; /* скругляем края */
   background: #f0f1f8; /* задаем цвет фона */
-  padding: 0 20px; /* отступ справа и слева 20px */
+  padding: 0 10px; /* отступ справа и слева 20px */
 }
 
 /* Отдельно стилизуем поле сообщение */
 .input-box textarea {
   resize: none; /* чтобы нельзя было менять высоту */
-  padding: 20px;
+  padding: 10px;
   font-family: "Roboto", sans-serif;
 }
 
@@ -509,44 +485,4 @@ display: none;
   color: #000;
   text-decoration: none;
   cursor: pointer;
-}
-
-/* Меняем стили при ширине экрана меньше 800px */
-@media (max-width: 805px) {
-  /* Теперь форма (правая колонка) будет сверху, а элементы (левая колонка) снизу */
-  .feedback
-  {
-     padding-top: 50px;
-  }
-  .feedback_content {
-   
-    height: 90%;
-    flex-direction: column-reverse; /* располагаем в колонку и реверсивно */
-  }
-
-  /* Внутри левой колонки внутренние элементы располагаем в ряд */
-  .left-side {
-    margin-top: 50px;
-    flex-direction: row; /* располагаем элементы (адрес, телефон, email) в ряд */
-    width: 100%; /* левая колонка на всю ширину */
-    justify-content: center;
-    flex-wrap: wrap; /* перенос элементов, если не хватит места */
-  }
-  .details {
-    margin-right: 20px;
-  }
-  .details:last-child {
-    margin-right: 0;
-  }
-
-  /* Убираем разделительную линию */
-  .left-side::before {
-    display: none;
-  }
-
-  /* Правая колонка теперь на всю ширину и не имеет отступа слева */
-  .right-side {
-    width: 100%;
-    margin-left: 0;
-  }
 }

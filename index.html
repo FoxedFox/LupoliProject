@@ -1,4 +1,3 @@
-
 <!doctype html>
 <head>
 <meta http-equiv="content-type" content="text/html; charset=utf8" />
@@ -11,61 +10,51 @@
 <meta property="og:description" content="Полиграфия - наша специальность. Мы поможем вам легко и уверенно пройти весь путь от начальной идеи до получения готового тиража полиграфической продукции" />
 <meta property="og:locale" content="ru_RU" />
 <meta property="og:site_name" content="Арт Авангард - полиграфия" />
+
+<link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
+<link rel="stylesheet" type="text/css" href="css/mobilestyle.css" media="screen">
+<link rel="stylesheet" type="text/css" href="css/design-tokens.css" media="screen">
+
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
- <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+ <script type="text/javascript" src="https://code.jquery.com/jquery-latest.js"></script>
  <script type="text/javascript" src="js/script.js"></script>
  <script src="https://kit.fontawesome.com/fce9a50d02.js" crossorigin="anonymous"></script> 
 </head>
 <body>  
 
-<header>
+<header> <!-- Добавить якоря -->
   <div class="mobilemenu">
-    <div class="mobilelogo"></div>
-<div id="nav-icon4">
-    <span></span>
-    <span></span>
-    <span></span>
-
-</div>
+  <div class="mobilelogo"></div>
+  <div id="nav-icon4">    <span></span>    <span></span>    <span></span>  </div>
 
 <div class="center-div">
  <ul class="siblings">
   <li class="pagenav">
    <ul>
-
     <li>
      <a href="#">коробки</a>
     </li>
-
     <li>
      <a href="#">пакеты бумажные</a>
     </li>
-
     <li>
      <a href="#">pos-материалы</a>
     </li>
-    
     <li>
      <a href="#">полиграфия</a>
     </li>
-
     <li>
      <a href="#">услуги производства</a>
     </li>
-
     <li>
      <a href="#">портфолио</a>
     </li>
-
     <li>
      <a href="#">контакты</a>
     </li>
-
    </ul>
   </li>
-
  </ul>
 </div>
   </div>
@@ -74,16 +63,16 @@
 
 
 <aside class="sidebar" tabindex="0">
-<div class="avatar wisdom"></div>
+<div class="avatar"></div>
     <nav class="sidebar__menu">
-      <a href="">Почему с нами лучше?</a>
+      <a href="">C нами лучше!</a>
       <a href="">Продукция</a>
-      <a href="">услуги</a>
-      <a href="">дизайн</a>
-      <a href="">портфолио</a>
-      <a href="">контакты</a>
+      <a href="">Услуги</a>
+      <a href="">Дизайн</a>
+      <a href="">Портфолио</a>
+      <a href="">Контакты</a>
     </nav>
- 
+ <!-- разобраться с иконками соц.сетей-->
 <ul class="sidebar__social">
       <li>
         <img src="img/wisdomtree.jpg" href="" >
@@ -92,7 +81,7 @@
         <img src="img/wisdomtree.jpg" href="" >
       </li>
     </ul>
-   
+   <!-- убрать проклятый костыль!!!-->
       <a style="  padding: 0 30px; display: flex;flex-direction: column; flex: 1; justify-content: space-around;font-size: 18px;color: #898989;">+7 (499) 707-78-91</a>    
 </aside>
 
@@ -172,30 +161,19 @@
 
 
 <div id="feedbackblock" class="feedback">
-  <!-- Контейнер выравнивает по ширине и по центру -->
     <div class="feedback_container">
       <div id="closefb" class="closefeedback">&times;</div>
-      <!-- content содержит содержимое формы -->
       <div class="feedback_content">
-       
-        <!-- Левая колонка: адрес, телефоны, email. Можете добавить свое -->
         <div class="left-side">
           <div class="address details">
-
-            <!-- Вместо классов: название шрифтовых иконок (fontawesome.com) -->
             <i class="fas fa-map-marker-alt"></i>
-
-            <!-- topic - заголовок, feedback_text, text-two - текст -->
             <div class="topic">Адрес</div>
-            <div class="feedback_text">г. Москва</div>
-            <div class="feedback_text">ул. Нарвская, 15А, строение 5</div>
+            <div class="feedback_text">г. Москва <br> ул.Нарвская 15А, <br> строение 5</div>
           </div>
           <div class="phone details">
             <i class="fas fa-phone-alt"></i>
             <div class="topic">Телефон</div>
-            <div class="feedback_text"> +7(499)707-78-91</div>
-            <div class="feedback_text"> +7(999)574-39-49</div>
-            <div class="feedback_text"> +7(925)269-50-72</div>
+            <div class="feedback_text"> +7(499)707-78-91<br> +7(999)574-39-49<br> +7(925)269-50-72</div>
           </div>
           <div class="email details">
             <i class="fas fa-envelope"></i>
@@ -203,22 +181,12 @@
             <div class="feedback_text">*******@******.com</div>
           </div>
         </div>
-
-        <!-- Правая колонка: сама форма -->
         <div class="right-side">
-
-          <!-- Заголовок для формы -->
           <div class="topic-text">Отправьте нам сообщение</div>
-
-          <!-- Какой-то дополнительный текст -->
           <p>
             Если хотите сделать заказ, задать вопрос или у вас есть предложения, заполните форму ниже
           </p>
-
-          <!-- Форма обратной связи -->
           <form action="#">
-
-            <!-- Каждый input для выравнивания вкладываем в блок input-box -->
             <div class="input-box">
               <input type="text" placeholder="Ваше имя" />
             </div>
