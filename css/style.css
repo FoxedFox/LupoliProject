@@ -1,7 +1,7 @@
-body {
-  padding-left: 280px;
+body { 
   font-family:Montserrat;
-  background: #e6e6e6;
+  padding-left: 280px;
+   background: #e6e6e6;
 }
 
 img {
@@ -30,6 +30,15 @@ h2{
   font-size: 3em;
   font-weight: normal;
 }
+
+.container_slider
+{
+   /*padding-left: 280px;
+   background: #e6e6e6;*/
+}
+
+
+
 /* setka*/
 .container {
   display: flex;
