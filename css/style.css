@@ -47,7 +47,7 @@ h2{
   flex-wrap: wrap;
 }
 .card {
-  width: 250px;
+  width: 280px;
   height: 210px;
   background-position: center;
   background-repeat: no-repeat;
@@ -84,6 +84,21 @@ h2{
 .wisdom{
     background-image: url(../img/anyproduct.jpg); /* "мудрая" заглушка*/
 }
+
+/* костыль на список */
+
+.centred_list
+{ 
+
+  display: flex;
+  height: auto;
+  max-height: 300px;
+  position: relative; 
+  color: #898989;
+  margin:0 14% 0 16%;
+  width: 70%;
+}
+
 
 /* bokovoe menu*/
 .sidebar {
@@ -354,6 +369,10 @@ text-align: center;
   .children {
     position: relative;
 }
+
+
+/* форма обратной связи*/
+
 
 .feedback {
   display: none;
