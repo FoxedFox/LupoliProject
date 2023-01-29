@@ -99,6 +99,20 @@ h2{
   width: 70%;
 }
 
+/* заказать письмо или звонок*/
+.centred_feedback{
+  padding-top: 1.6em;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;  
+  color: #898989;
+ font-size: 3.0vh; ;
+}
+.centred_feedback i{
+  color: #79e92f;
+
+}
+
 
 /* bokovoe menu*/
 .sidebar {
@@ -582,3 +596,7 @@ text-align: center;
   width:90%; 
   height: 40%;
 }
+
+
+
+

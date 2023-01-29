@@ -25,8 +25,19 @@ prevEl:'.swiper-button-prev'
 // Get the modal
 var feedback = document.getElementById("feedbackblock");
 var orderbtn = document.getElementById("MyOrderButton");
+
+var callbtn = document.getElementById("MyCallButton");
+var emailbtn = document.getElementById("MyEmailButton");
+
 var closefbc = document.getElementById("closefb");
+
 orderbtn.onclick = function() {
+  feedback.style.display = "flex";
+}
+callbtn.onclick = function() {
+  feedback.style.display = "flex";
+}
+emailbtn.onclick = function() {
   feedback.style.display = "flex";
 }
 closefbc.onclick = function() {
