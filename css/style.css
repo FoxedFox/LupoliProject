@@ -584,10 +584,14 @@ text-align: center;
 
       .swiper-slide img {
         display: block;
-        width: 100%;
         height: 100%;
         object-fit: cover;
       }
+.brandsliderwrapper
+{
+ height: 192px;
+ width: auto;
+}
 
 
 /* yandexmap */

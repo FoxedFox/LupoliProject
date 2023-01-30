@@ -11,13 +11,30 @@ $(function() {
 });
 });
 /*ОСНОВНОЙ СЛАЙДЕР*/
-var swiper = new Swiper(".mySwiper", {
+new Swiper(".mySwiper", {
         navigation:{
 nextEl:'.swiper-button-next',
 prevEl:'.swiper-button-prev'
     }});
 
-
+new Swiper(".BrendSwiper", {
+        navigation:{
+            /* добавление кнопок*/
+nextEl:'.swiper-button-next',
+prevEl:'.swiper-button-prev'},
+/*количество слайдов показывает*/
+slidesPerView: 6,
+spacebetween: 30,
+/*бесконечность*/
+loop:true,
+/*автопрокрутка*/
+autoplay:{
+    delay: 1000,
+    disableOnInteraction: false
+},
+/* скорость */
+speed: 1000
+});
 
 
 
