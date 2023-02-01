@@ -40,29 +40,44 @@ speed: 1000
 
 /*БЛОК ОБРАТНОЙ СВЯЗИ ОТКРЫТИЕ/ЗАКРЫТИЕ*/
 // Get the modal
+var mainpage = document.getElementById("maincontainer");
 var feedback = document.getElementById("feedbackblock");
-var orderbtn = document.getElementById("MyOrderButton");
+var sidebar =  document.getElementById("sidebar");
 
+var orderbtn = document.getElementById("MyOrderButton");
 var callbtn = document.getElementById("MyCallButton");
 var emailbtn = document.getElementById("MyEmailButton");
 
 var closefbc = document.getElementById("closefb");
 
 orderbtn.onclick = function() {
-  feedback.style.display = "flex";
+  feedback.style.display = "flex",
+  mainpage.style.filter = "blur(5px)",
+  sidebar.style.filter = "blur(5px)",
+  feedback.style.filter = "none";
 }
 callbtn.onclick = function() {
-  feedback.style.display = "flex";
+  feedback.style.display = "flex",
+  mainpage.style.filter = "blur(5px)",
+  sidebar.style.filter = "blur(5px)",
+  feedback.style.filter = "none";
 }
 emailbtn.onclick = function() {
-  feedback.style.display = "flex";
+  feedback.style.display = "flex",
+  mainpage.style.filter = "blur(5px)",
+  sidebar.style.filter = "blur(5px)",
+  feedback.style.filter = "none";
 }
 closefbc.onclick = function() {
-  feedback.style.display = "none";
+  feedback.style.display = "none",
+   sidebar.style.filter = "none",
+   mainpage.style.filter = "none";
 }
 window.onclick = function(event) {
   if (event.target == feedback) {
-    feedback.style.display = "none";
+    feedback.style.display = "none",
+     sidebar.style.filter = "none",
+     mainpage.style.filter = "none";
   }
 }
 
