@@ -1,8 +1,16 @@
 @media (max-width: 960px) {
   body {
-    padding-left: 0;
-    padding-top: 50px;
+    
   }
+
+.maincontainer
+{
+padding-left: 0;
+    padding-top: 50px;
+}
+
+
+
   .sidebar {
 display: none;
   }
