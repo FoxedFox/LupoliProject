@@ -43,8 +43,15 @@ h2{
 {
   padding-left: 280px;
    background: #e6e6e6;
+  
 }
 
+.centredmaincontainer
+{
+  margin: auto;
+  max-width: 1583px;
+  background: #e6e6e6;
+}
 
 
 /* setka*/
@@ -185,6 +192,19 @@ justify-content: space-around;
 font-size: 20px;
 color: #898989;
 }
+
+#telephone{
+  padding: 0 30px; 
+  display: flex;
+  flex-direction: column; 
+  flex: 1; 
+  justify-content: space-around;
+  font-size: 18px;
+  color: #898989;
+}
+
+
+
 
 /*меню мобильное*/
 .mobilemenu
@@ -567,7 +587,7 @@ text-align: center;
 
 .slidercontainer
 {
-  height: 30%;
+  
 }
 
 
