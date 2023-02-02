@@ -433,92 +433,50 @@ text-align: center;
 /* Ограничиваем контейнер по ширине 1000px */
 .feedback_container {
   width: 100%;
-  max-width: 1000px;
-  padding: 0 20px;
+  max-width: 500px;
+  background: #f6f5f5;
+  padding: 1px;
 }
 
 /* Стили самой формы */
 .feedback_content {
   display: flex; /* делаем колонки в ряд */
   align-items: center; /* выравниваем по центру */
-  justify-content: space-between; /* колонки растянутся на всю ширину */
+  justify-content: center; 
   background: #fff;
-  padding: 20px;
+  padding-bottom: 20px;
   border-radius: 5px;
   box-shadow: 4px 4px 8px 0 rgba(34, 60, 80, 0.2);
 }
 
-/* Стили левой колонки */
-.left-side {
-  width: 25%; /* занимает 25% общей ширины */
-  height: 100%; /* растягиваем на всю высоту */
-  position: relative; /* позиционирование относительное (для ::before) */
-  display: flex;
-  flex-direction: column; /* внутри элементы располагаем в колонку */
-}
-
-/* Стили разделительной линии между левой и правой колонкой */
-.left-side::before {
-  content: ""; /* контент нам не нужен */
-  position: absolute; /* позиционируем относительно .left-side */
-  height: 70%; /* высота 70% от .left-side */
-  width: 2px; /* ширина 2px */
-  background: #afafb6;
-  right: -15px; /* позиционируем справа + отступ 15px (справа) */
-  top: 50%; /* выравниваем по центру */
-  transform: translateY(-50%); /* выравниваем по центру */
-}
 
 /* Стили правой колонки */
 .right-side {
-  width: 75%; /* занимает 75% общей ширины */
-  margin-left: 75px;
-}
-
-/* Элементы левой колонки: адрес, телефон, email */
-.details {
-  margin-bottom: 15px;
-  text-align: center;
-}
-
-/* Общие стили для иконок */
-.details i {
-  font-size: 25px; /* задаем размер */
-  color: #8ab928; /* задаем цвет */
-  margin-bottom: 10px;
-}
-
-/* Стили для заголовков левой колонки */
-.topic {
-  color: black;
-  font-size: 18px;
-  font-weight: 500;
-  margin-bottom: 7px; /* отступ снизу 7px */
-}
-
-/* Стили для текста левой колонки */
-.feedback_text {
-  font-size: 14px;
-  color: #898989;
+  width: 100%; /* занимает 75% общей ширины */
 }
 
 /* Заголовок правой колонки */
 .topic-text {
+  padding: 10px;
   font-size: 23px;
   font-weight: 600;
-  color: #8ab928;
+  color: #fff;
   margin-bottom: 20px;
+  background: #95a3b0;
+  text-align: center;
 }
 
 /* Текст правой колонки */
 .right-side p {
   margin-bottom: 20px;
+  text-align: center;
 }
 
 /* Контейнер для input'ов формы */
 .input-box {
+  margin:  0% 10% 0% 10%;
   height: 50px; /* по сути задаем высоту input'а */
-  width: 100%; /* ширина на всю ширину правой колонки (с учетом padding) */
+  width: 80%; /* ширина на всю ширину правой колонки (с учетом padding) */
   margin-bottom: 10px; /* отступаем снизу 20px */
 }
 
@@ -531,13 +489,14 @@ text-align: center;
   border-radius: 5px; /* скругляем края */
   background: #f0f1f8; /* задаем цвет фона */
   padding: 0 10px; /* отступ справа и слева 20px */
+  text-align: center;
 }
 
 /* Отдельно стилизуем поле сообщение */
 .input-box textarea {
   resize: none; /* чтобы нельзя было менять высоту */
   padding: 10px;
-  font-family: "Roboto", sans-serif;
+  text-align: center;
 }
 
 /* Это контейнер для поля сообщение */
@@ -551,25 +510,60 @@ text-align: center;
 }
 
 /* Стили для самой кнопки */
-.feedback_button input[type="feedback_button"] {
+.feedback_button{
+  margin:  0% 10% 0% 10%;;
   color: #fff;
   text-align: center;
   font-size: 18px;
-  background: #8ab928;
+  background: #95a3b0;
   outline: none;
   border: none;
   padding: 10px 20px;
   border-radius: 7px;
+  cursor: pointer;
   transition: 0.2s; /* чтобы плавно менялся цвет при наведении (:hover) */
 }
 
-/* Меняем цвет фона при наведении на кнопку */
-.feedback_button input[type="feedback_button"]:hover {
-  background: rgb(0, 0, 207);
+/* Меняем цвет фона при наведении на кнопку*/
+.feedback_button:hover {
+  background: #8ab928;
 }
+.feedback_button:active {
+  background: #8ab928;
+  color: #5f7a10;
+}
+
+.close {
+    transform:translateY(-50%);
+    z-index:1;
+    width: 30px;
+    height:30px;
+    cursor:pointer;
+  background: green;
+  position:relative;  
+}
+.close span{
+    position:absolute;
+    width:80%;
+    height:3px;
+    left:10%;
+    top:45%;
+    background-color: black;
+}
+
+.first {
+    transform:rotate(45deg);
+}
+.last {
+    transform:rotate(-45deg);
+}
+
+
+
+
 /* The Close Button */
 .closefeedback {
-  color: #aaaaaa;
+  color: #fff;
   float: right;
   font-size: 40px;
   font-weight: bold;

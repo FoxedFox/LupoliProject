@@ -29,7 +29,8 @@ display: none;
      padding-top: 50px;
   }
   .feedback_content {
-
+   
+    height: 90%;
     flex-direction: column-reverse; /* располагаем в колонку и реверсивно */
   }
 
@@ -41,6 +42,12 @@ display: none;
     margin-right: 0;
   }
 
+
+  /* Правая колонка теперь на всю ширину и не имеет отступа слева */
+  .right-side {
+    width: 100%;
+    margin-left: 0;
+  }
 
 
 
