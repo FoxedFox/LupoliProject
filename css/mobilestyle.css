@@ -29,19 +29,11 @@ display: none;
      padding-top: 50px;
   }
   .feedback_content {
-   
-    height: 90%;
+
     flex-direction: column-reverse; /* располагаем в колонку и реверсивно */
   }
 
-  /* Внутри левой колонки внутренние элементы располагаем в ряд */
-  .left-side {
-    margin-top: 10px;
-    flex-direction: row; /* располагаем элементы (адрес, телефон, email) в ряд */
-    width: 100%; /* левая колонка на всю ширину */
-    justify-content: center;
-    flex-wrap: wrap; /* перенос элементов, если не хватит места */
-  }
+
   .details {
     margin-right: 20px;
   }
@@ -49,16 +41,6 @@ display: none;
     margin-right: 0;
   }
 
-  /* Убираем разделительную линию */
-  .left-side::before {
-    display: none;
-  }
-
-  /* Правая колонка теперь на всю ширину и не имеет отступа слева */
-  .right-side {
-    width: 90%;
-    margin-left: 0;
-  }
 
 
 
