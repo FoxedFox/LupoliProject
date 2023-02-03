@@ -428,6 +428,7 @@ text-align: center;
   background: rgba(0, 0, 0, 0.8);
   justify-content: center; /* чтобы контейнер */
   align-items: center; /* был по центру */
+
 }
 
 /* Ограничиваем контейнер по ширине 1000px */
@@ -435,7 +436,8 @@ text-align: center;
   width: 100%;
   max-width: 500px;
   background: #f6f5f5;
-  padding: 1px;
+  padding: 3px;
+  border-radius: 5px;
 }
 
 /* Стили самой формы */
@@ -533,37 +535,19 @@ text-align: center;
   color: #5f7a10;
 }
 
-.close {
-    transform:translateY(-50%);
-    z-index:1;
-    width: 30px;
-    height:30px;
-    cursor:pointer;
-  background: green;
-  position:relative;  
-}
-.close span{
-    position:absolute;
-    width:80%;
-    height:3px;
-    left:10%;
-    top:45%;
-    background-color: black;
-}
 
-.first {
-    transform:rotate(45deg);
-}
-.last {
-    transform:rotate(-45deg);
-}
 
 
 
 
 /* The Close Button */
 .closefeedback {
+  position: relative;
+  border-left-style: solid;
+  bottom: 10px;
+  left: 5px;
   color: #fff;
+  width: 40px;
   float: right;
   font-size: 40px;
   font-weight: bold;
