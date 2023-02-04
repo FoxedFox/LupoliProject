@@ -3,6 +3,17 @@ body {
   background: #e6e6e6;
 }
 
+/* h1 {
+  font-size: 5.9vw;
+}
+h2 {
+  font-size: 3.0vh;
+}
+p {
+  font-size: 2vmin;
+}*/
+
+
 img {
   max-width: 100%;
   position: relative;
@@ -33,7 +44,7 @@ h2{
 }
 .gridheaders
 {
-  font-size: 3em;
+  font-size: 4vmin;
   font-weight: normal;
 }
 
@@ -121,12 +132,12 @@ h2{
   display: flex;
   justify-content: space-evenly;
   text-align: center;  
-  color: #898989;
- font-size: 3.0vh; ;
+  color: #898989; 
+  font-size: 3vmin;
 }
 .centred_feedback i{
   color: #8ab928;
-
+ 
 }
 
 
@@ -627,12 +638,11 @@ text-align: center;
 }
 
 
-
+/* подвал сайта */
 .footer{
 
 background: #8ab928;
-padding-left: 280px;
-text-align:center;
+padding: 60px 30px 60px;
 }
 
 .footer .row{
@@ -667,18 +677,64 @@ font-size:2em;
 margin:0% 1%;
 }
 
-@media (max-width:720px){
-.footer{
-background: #8ab928;
-text-align:left;
-padding:5%;
+
+
+
+.textcols {
+  
+  white-space: nowrap;
+  font-size: 0;
 }
-.footer .row ul li{
-display:block;
-margin:10px 0px;
-text-align:left;
+.textcols-item {
+  white-space: normal;  
+  display: inline-block;
+  width: 26%;
+  vertical-align: top;
+  margin-right: 10%;
+  font-size: 14px;
 }
-.footer .row a i{
-margin:0% 3%;
+.textcols .textcols-item:last-child {
+  margin-right: 0 ;
 }
+.footerheadertext{
+  color: #4f7202;
+  font-size: 3vmin;
+}
+
+.footersimpletext{
+  color: #fff;
+  font-size: 2vmin;
+}
+
+.footerfooter{
+  background: #6e9417;
+  
+  color: #fff;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.footerfootertext{
+  vertical-align: middle;
+  text-align: center;
+  font-weight: bold;
+}
+.footerupper{
+  border-left-style: solid;
+  position: absolute;
+  right: 0px;
+  font-weight: bold;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  vertical-align: middle;
+  text-align: center;
+}
+.footerupper:hover{
+  background: #8ab928;
+  cursor: pointer;
 }
