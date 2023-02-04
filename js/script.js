@@ -42,6 +42,8 @@ speed: 1000
 // Get the modal
 var mainpage = document.getElementById("maincontainer");
 var feedback = document.getElementById("feedbackblock");
+var emailfeedback = document.getElementById("feedbackemailblock");
+var callfeedback = document.getElementById("feedbackcallblock");
 var sidebar =  document.getElementById("sidebar");
 
 var orderbtn = document.getElementById("MyOrderButton");
@@ -49,6 +51,8 @@ var callbtn = document.getElementById("MyCallButton");
 var emailbtn = document.getElementById("MyEmailButton");
 
 var closefbc = document.getElementById("closefb");
+var closefbcall = document.getElementById("closefbcall");
+var closefbemail = document.getElementById("closefbemail");
 
 orderbtn.onclick = function() {
   feedback.style.display = "flex",
@@ -57,29 +61,51 @@ orderbtn.onclick = function() {
   feedback.style.filter = "none";
 }
 callbtn.onclick = function() {
-  feedback.style.display = "flex",
+  callfeedback.style.display = "flex",
   mainpage.style.filter = "blur(5px)",
   sidebar.style.filter = "blur(5px)",
   feedback.style.filter = "none";
 }
 emailbtn.onclick = function() {
-  feedback.style.display = "flex",
+  emailfeedback.style.display = "flex",
   mainpage.style.filter = "blur(5px)",
   sidebar.style.filter = "blur(5px)",
   feedback.style.filter = "none";
 }
 closefbc.onclick = function() {
   feedback.style.display = "none",
+  emailfeedback.style.display = "none",
+    feedback.style.display = "none",
    sidebar.style.filter = "none",
    mainpage.style.filter = "none";
 }
+
+closefbcall.onclick = function() {
+  callfeedback.style.display = "none",
+   sidebar.style.filter = "none",
+   mainpage.style.filter = "none";
+}
+
+closefbemail.onclick = function() {
+    emailfeedback.style.display = "none",
+   sidebar.style.filter = "none",
+   mainpage.style.filter = "none";
+}
+
 window.onclick = function(event) {
-  if (event.target == feedback) {
+  if (event.target == feedback || event.target == emailfeedback || event.target == callfeedback) {
+    callfeedback.style.display = "none",
+     emailfeedback.style.display = "none",
     feedback.style.display = "none",
      sidebar.style.filter = "none",
      mainpage.style.filter = "none";
   }
 }
+
+
+
+
+
 
 /*     */
 
