@@ -9,47 +9,34 @@ padding-left: 0;
     padding-top: 50px;
 }
 
-
-
-  .sidebar {
+.sidebar {
 display: none;
-  }
-  .mobilemenu
-  {
+}
+.mobilemenu{
     display:flex;
-  } 
-  a:hover {
-    background-color: #BABABA;
-    color: #fff;
-  }
+} 
+a:hover {
+background-color: #BABABA;
+color: #fff;
+}
 
-  /* Теперь форма (правая колонка) будет сверху, а элементы (левая колонка) снизу */
-  .feedback
-  {
-     padding-top: 50px;
-  }
-  .feedback_content {
-   
-    height: 90%;
-    flex-direction: column-reverse; /* располагаем в колонку и реверсивно */
-  }
+.footer{
+  background-color: #303a44;
+  text-align: center;
+}
 
+.textcols
+{
+  display: none;
+}
 
-  .details {
-    margin-right: 20px;
-  }
-  .details:last-child {
-    margin-right: 0;
-  }
-
-
-  /* Правая колонка теперь на всю ширину и не имеет отступа слева */
-  .right-side {
-    width: 100%;
-    margin-left: 0;
-  }
-
-
+.mobilefootertext{
+  text-align: center;
+  display: inline-block;
+}
+.footerfooter{
+  display: none;
+}
 
 
 }
