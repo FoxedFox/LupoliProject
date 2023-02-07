@@ -26,6 +26,26 @@ color: #fff;
   text-align: center;
 }
 
+/* контейнер под слайдером ПК и Мобильный */
+.containermobile {
+  display: flex;
+  justify-content: center;
+}
+.centred_headersmobile{
+  display: initial;
+}
+
+.container {
+  display: none;
+}
+.centred_headers{
+  display: none;
+}
+.seemore{
+  display: none;
+}
+
+/* footer*/
 .textcols
 {
   display: none;
@@ -54,6 +74,9 @@ color: #fff;
 .swiper-button-prev{
  display: none !important;; 
 }
+
+
+
 
 
 }
