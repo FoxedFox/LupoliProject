@@ -2,16 +2,17 @@
   body {
     
   }
-
+/* основной контейнер*/
 .maincontainer
 {
 margin-left: 0;
     padding-top: 50px;
 }
-
+/*левое меню*/
 .sidebar {
 display: none;
 }
+/*мобильное меню*/
 .mobilemenu{
     display:flex;
 } 
@@ -19,7 +20,7 @@ a:hover {
 background-color: #BABABA;
 color: #fff;
 }
-
+/* подвал */
 .footer{
   background-color: #303a44;
   text-align: center;
@@ -36,6 +37,22 @@ color: #fff;
 }
 .footerfooter{
   display: none;
+}
+
+
+/*слайдер брендов*/
+.brandsliderwrapper
+{
+ height: 250px;
+ width: auto;
+}
+
+/* стрелочки слайдеров*/
+.swiper-button-next{
+  display: none !important;;
+}
+.swiper-button-prev{
+ display: none !important;; 
 }
 
 

@@ -17,6 +17,8 @@ nextEl:'.swiper-button-next',
 prevEl:'.swiper-button-prev'
     }});
 
+
+/* ПК-слайдер с брендами*/
 new Swiper(".BrendSwiper", {
         navigation:{
             /* добавление кнопок*/
@@ -33,7 +35,38 @@ autoplay:{
     disableOnInteraction: false
 },
 /* скорость */
-speed: 1000
+speed: 1000,
+/*количество слайдов на определенных размерах экрана*/
+breakpoints: {
+
+    320:{
+        slidesPerView: 2,
+    },
+     480:{
+        slidesPerView: 2.5,
+    },
+     768:{
+        slidesPerView: 2.7,
+    },
+
+    960:{
+        slidesPerView: 3,
+    },
+    1030:{
+        slidesPerView: 4,
+    },
+    1100:{
+        slidesPerView:5,
+    },
+    1225:{
+        slidesPerView:6,
+    },
+    1350:{
+        slidesPerView:7,
+    }
+}
+
+
 });
 
 
