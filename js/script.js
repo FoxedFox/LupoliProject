@@ -63,20 +63,20 @@ orderbtn.onclick = function() {
 callbtn.onclick = function() {
   callfeedback.style.display = "flex",
   mainpage.style.filter = "blur(5px)",
-  sidebar.style.filter = "blur(5px)",
+ sidebar.style.filter = "blur(5px)",
   feedback.style.filter = "none";
 }
 emailbtn.onclick = function() {
   emailfeedback.style.display = "flex",
   mainpage.style.filter = "blur(5px)",
-  sidebar.style.filter = "blur(5px)",
+sidebar.style.filter = "blur(5px)",
   feedback.style.filter = "none";
 }
 closefbc.onclick = function() {
   feedback.style.display = "none",
   emailfeedback.style.display = "none",
     feedback.style.display = "none",
-   sidebar.style.filter = "none",
+  sidebar.style.filter = "none",
    mainpage.style.filter = "none";
 }
 
