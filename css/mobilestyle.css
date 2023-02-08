@@ -45,6 +45,18 @@ color: #fff;
   display: none;
 }
 
+/* заказать звонок и сообщение */
+.centred_feedback{
+  flex-direction: column;
+}
+
+
+.portfoliomobile{
+  display: initial;
+  
+}
+
+
 /* footer*/
 .textcols
 {

@@ -64,7 +64,8 @@ breakpoints: {
     1350:{
         slidesPerView:7,
     }
-}
+},
+slideToClickedSlide: true,
 
 
 });
