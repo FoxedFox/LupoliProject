@@ -68,6 +68,7 @@ h2{
 {
   margin: auto;
   background: #fff;
+  max-width: 1143px;
 }
 
 
@@ -87,8 +88,8 @@ h2{
   flex-wrap: wrap;
 }
 .card {
-  width: 19.6vw;
-  aspect-ratio: 285/210;
+  width: 285px;
+  height: 210px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -157,8 +158,8 @@ h2{
   border-radius: 10px;
 }
 .services{
-  width: 26.2vw;
-  aspect-ratio: 380/250;
+  width: 380px;
+  height: 250px;
 }
 .wisdom{
     background-image: url(../img/anyproduct.jpg); /* "мудрая" заглушка*/
