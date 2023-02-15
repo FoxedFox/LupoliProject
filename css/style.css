@@ -32,7 +32,7 @@ img {
 .centred_headers
 {
   text-align: center;  
-  color: #898989;
+  color:#727b8c;
 }
 
 .centred_headers img{
@@ -52,7 +52,8 @@ h2{
 .gridheaders
 {
   font-size: 4vmin;
-  font-weight: normal;
+  color: #898996;
+  font-weight: 700;
 }
 
 
@@ -78,7 +79,7 @@ h2{
 {
   display: none;
   text-align: center;  
-  color: #898989;
+  color: #727b8c;
 }
 
 .container {
@@ -174,7 +175,7 @@ h2{
   height: auto;
   max-height: 300px;
   position: relative; 
-  color: #898989;
+  color: #727b8c;
   margin:0 14% 0 16%;
   width: 70%;
 }
@@ -185,7 +186,7 @@ h2{
   display: flex;
   justify-content: space-evenly;
   text-align: center;  
-  color: #898989; 
+  color: #727b8c; 
   font-size: 3vmin;
 }
 .centred_feedback i{
@@ -230,7 +231,7 @@ h2{
   font-size: 18px;
   margin-top: 50px;
   margin-bottom: 30px;
-  color: #898989;
+  color: #727b8c;
 }
 .sidebar__menu a {
   color: currentcolor;
@@ -255,7 +256,7 @@ flex-direction: column;
 flex: 1; 
 justify-content: space-around;
 font-size: 20px;
-color: #898989;
+color: #727b8c;
 }
 
 #telephone{
@@ -265,7 +266,7 @@ color: #898989;
   flex: 1; 
   justify-content: space-around;
   font-size: 18px;
-  color: #898989;
+  color: #727b8c;
 }
 
 
