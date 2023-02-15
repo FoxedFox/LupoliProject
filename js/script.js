@@ -26,16 +26,16 @@ nextEl:'.swiper-button-next',
 prevEl:'.swiper-button-prev'},
 /*количество слайдов показывает*/
 slidesPerView: 6,
-spacebetween: 30,
+spacebetween: 1,
 /*бесконечность*/
 loop:true,
 /*автопрокрутка*/
 autoplay:{
-    delay: 1000,
+    delay: 2000,
     disableOnInteraction: false
 },
 /* скорость */
-speed: 1000,
+speed: 2000,
 /*количество слайдов на определенных размерах экрана*/
 breakpoints: {
 
@@ -53,16 +53,16 @@ breakpoints: {
         slidesPerView: 3,
     },
     1030:{
-        slidesPerView: 4,
+        slidesPerView: 3,
     },
     1100:{
-        slidesPerView:5,
+        slidesPerView:3,
     },
     1225:{
-        slidesPerView:6,
+        slidesPerView:4,
     },
     1350:{
-        slidesPerView:7,
+        slidesPerView:5,
     }
 },
 slideToClickedSlide: true,
