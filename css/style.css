@@ -46,6 +46,7 @@ h1{
   font-size: 3em;
 }
 h2{
+  font-size: 80%;
   font-weight: normal;
 }
 .gridheaders
@@ -221,6 +222,10 @@ h2{
   height: 10vh;
   overflow: hidden;
 }
+.sidebar__menuwrapp{
+  height: 45vh;
+  display: flex;
+}
 .sidebar__menu {
   padding: 0 30px;
   display: flex;
@@ -236,30 +241,26 @@ h2{
   color: currentcolor;
   text-decoration: none;
 }
-.sidebar__social {
-  display: flex;
-  list-style: none;
-  padding: 0 30px;
-   align-items: center;
-  flex-wrap: wrap;
-  gap: 8px;
-}
-.sidebar__social li {
-  height: 50px;
-  width: 50px;
-}
-.sidebar__social a {
-padding: 0 30px; 
-display: flex;
-flex-direction: column; 
-flex: 1; 
-justify-content: space-around;
-font-size: 20px;
-color: #727b8c;
-}
 
+
+
+.sidebar_social{
+position: absolute;
+width: 100%;
+bottom: 5%;
+}
+.social{
+  display: flex;
+  padding: 0 30px;
+  gap: 20px;
+  
+}
+.social img:hover {
+  transform: scale(1.4);
+  transition: 1s; 
+}
 #telephone{
-  padding: 0 30px; 
+  padding: 0 30px;
   display: flex;
   flex-direction: column; 
   flex: 1; 

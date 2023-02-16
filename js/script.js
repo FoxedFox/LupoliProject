@@ -31,7 +31,7 @@ spacebetween: 1,
 loop:true,
 /*автопрокрутка*/
 autoplay:{
-    delay: 2000,
+    delay: 3000,
     disableOnInteraction: false
 },
 /* скорость */
