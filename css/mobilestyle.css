@@ -86,9 +86,10 @@ color: #fff;
 .swiper-button-prev{
  display: none !important;; 
 }
-
-
-
+.swiper-pagination
+{
+ display: unset; 
+}
 
 
 }

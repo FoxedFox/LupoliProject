@@ -679,6 +679,36 @@ text-align: center;
         height: 100%;
         object-fit: cover;
       }
+.slidercover{
+  width: 100%;
+        height: 100%;            
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0.8;
+}
+.swiper-pagination
+{
+ display: none; 
+}
+.sliderseemore{
+    padding: 10px 40px;
+    background:  #5e6c76;
+    color: white;
+    font-size: 2vh;
+    border: 2px solid white;
+    border-radius: 20px;
+    font-weight: 500;
+    text-align: center;
+    z-index: 1000;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 80%;
+}
+    
+
+
 .brandsliderwrapper
 {
  height: 123px;
