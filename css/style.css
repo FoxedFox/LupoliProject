@@ -210,20 +210,17 @@ h2{
 .sidebar .avatar {
   text-align: center;
    width: 20vw;
-  height: 200px;
-   background-image: url(../img/mainlogo.png);
    background-size: 100%;
      background-position: center;
   background-repeat: no-repeat;
   position: relative;
 }
 .sidebar .avatar img {
-  width: 20vw;
-  height: 10vh;
+
   overflow: hidden;
 }
 .sidebar__menuwrapp{
-  height: 45vh;
+  height: 40vh;
   display: flex;
 }
 .sidebar__menu {
@@ -240,6 +237,8 @@ h2{
 .sidebar__menu a {
   color: currentcolor;
   text-decoration: none;
+  cursor: pointer;
+  font-size: 1.1em;
 }
 
 
@@ -253,11 +252,14 @@ bottom: 5%;
   display: flex;
   padding: 0 30px;
   gap: 20px;
+  justify-content: flex-start;
+  align-items: center;
   
 }
 .social img:hover {
-  transform: scale(1.4);
+  transform: scale(1.2);
   transition: 1s; 
+  cursor: pointer;
 }
 #telephone{
   padding: 0 30px;

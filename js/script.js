@@ -73,10 +73,17 @@ breakpoints: {
 },
 slideToClickedSlide: true,
 
+initialSlide: Math.floor(Math.random()*15),
 
 });
 
-
+/* несчастная растяжка картинок слайдера по размеру экрана*/
+document.getElementById('div_registerA').style.width='80vw';
+document.getElementById('div_registerA').style.height='100vh';
+document.getElementById('div_registerB').style.width='80vw';
+document.getElementById('div_registerB').style.height='100vh';
+document.getElementById('div_registerC').style.width='80vw';
+document.getElementById('div_registerC').style.height='100vh';
 
 /*БЛОК ОБРАТНОЙ СВЯЗИ ОТКРЫТИЕ/ЗАКРЫТИЕ*/
 // Get the modal
