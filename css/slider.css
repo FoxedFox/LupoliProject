@@ -213,9 +213,9 @@
 }
 
 :root {
-    --swiper-navigation-size: 44px
+    --swiper-navigation-size: 40px
 }
-
+.swiper-button-more,
 .swiper-button-next,
 .swiper-button-prev {
     position: absolute;
@@ -228,9 +228,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--swiper-navigation-color, var(--swiper-theme-color))
+    color: #fff;
+    font-weight: bolder;
 }
-
+.swiper-button-more:hover
+.swiper-button-next:hover,
+.swiper-button-prev:hover{
+  transform: scale(1.15);
+  transition: 1s; 
+  cursor: pointer;
+}
 .swiper-button-next.swiper-button-disabled,
 .swiper-button-prev.swiper-button-disabled {
     opacity: .35;
@@ -249,7 +256,7 @@
 .swiper-navigation-disabled .swiper-button-prev {
     display: none !important
 }
-
+.swiper-button-more:after,
 .swiper-button-next:after,
 .swiper-button-prev:after {
     font-family: swiper-icons;
@@ -268,6 +275,19 @@
 
 .swiper-button-prev:after,
 .swiper-rtl .swiper-button-next:after {
+    content: 'prev'
+}
+
+.swiper-button-more,
+.swiper-rtl .swiper-button-more{
+    right: 50%;
+    bottom: 1%;
+    top: auto;
+    transform: rotate(-90deg);
+}
+
+.swiper-button-more:after,
+.swiper-rtl .swiper-button-more:after {
     content: 'prev'
 }
 
