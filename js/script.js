@@ -159,11 +159,15 @@ window.onclick = function(event) {
 
 $('#sidebar_services').hover(
     function(){
-        $('#TB_overlay').css('display','block');
+       
+        $('#TB_overlay').css('background-color','black');
+        $('#TB_overlay').css('opacity','0.5');
         $('.secondlevelmenu').css('left','20vw');
     },
     function(){
-        $('#TB_overlay').css('display','none');
+        
+        $('#TB_overlay').css('background-color','white');
+        $('#TB_overlay').css('opacity','0');
         $('.secondlevelmenu').css('left','0vw');
     }
 );

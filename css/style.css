@@ -862,11 +862,11 @@ padding: 45px 30px 45px;
 
 
 #TB_overlay {
-  display: none;
-  background-color: #000; /* Чёрный фон */
+  display: block;
+  background-color: #fff; /* Чёрный фон */
   height: 100%; /* Высота максимальна */
   left: 0; /* Нулевой отступ слева */
-  opacity: 0.50; /* Степень прозрачности */
+  opacity: 0; /* Степень прозрачности */
   position: fixed; /* Фиксированное положение */
   top: 0; /* Нулевой отступ сверху */
   left:20vw;
