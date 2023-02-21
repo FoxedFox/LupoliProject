@@ -157,7 +157,16 @@ window.onclick = function(event) {
 }
 
 
-
+$('#sidebar_services').hover(
+    function(){
+        $('#TB_overlay').css('display','block');
+        $('.secondlevelmenu').css('left','20vw');
+    },
+    function(){
+        $('#TB_overlay').css('display','none');
+        $('.secondlevelmenu').css('left','0vw');
+    }
+);
 
 
 
