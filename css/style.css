@@ -225,7 +225,6 @@ h2{
   display: flex;
 }
 .sidebar__menu {
-  padding: 0 30px;
   display: flex;
   flex-direction: column;
   flex: 1;
@@ -236,12 +235,15 @@ h2{
   color: #727b8c;
 }
 .sidebar__menu a {
+    padding: 4% 30px;
   color: currentcolor;
   text-decoration: none;
   cursor: pointer;
   font-size: 1.1em;
 }
-
+.sidebar__menu a:hover {
+  background-color: #f1f3f7;
+}
 
 .secondlevelmenu{
   height: 100vh;
@@ -252,19 +254,60 @@ h2{
   left: 0;
   display: flex;
   flex-direction: column;
-  transition: 1s linear;
+  transition: 0.5s linear;
   z-index: 9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
 }
 
 
-#sidebar_services:hover ~ .secondlevelmenu {
-  
-  left: 20vw;
+
+.secondlevelmenu:hover{
+  left:20vw;
 }
+#sidebar_production_secondlevel{
+  margin-top: 35vh;
+  margin-bottom: 20vh;
+}
+
+
 
 #sidebar_services:hover + .maincontainer {
-  
   filter: blur(5px);
+}
+#sidebar_services_secondlevel{
+  margin-top: 42vh;
+}
+
+.thirdlevelmenu{
+  height: 100vh;
+  width: 20vw;
+  background: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  transition: 0.5s linear;
+  z-index: 8;
+}
+
+
+
+
+
+
+#TB_overlay {
+  display: none;
+  background-color: #fff; /* Чёрный фон */
+  height: 100%; /* Высота максимальна */
+  left: 0; /* Нулевой отступ слева */
+  opacity: 0; /* Степень прозрачности */
+  position: fixed; /* Фиксированное положение */
+  top: 0; /* Нулевой отступ сверху */
+  left:20vw;
+  width: 80%; /* Ширина максимальна */
+  z-index: 3; /* Заведомо быть НАД другими элементами */
+  transition: 1s;
 }
 
 
@@ -861,16 +904,3 @@ padding: 45px 30px 45px;
 
 
 
-#TB_overlay {
-  display: block;
-  background-color: #fff; /* Чёрный фон */
-  height: 100%; /* Высота максимальна */
-  left: 0; /* Нулевой отступ слева */
-  opacity: 0; /* Степень прозрачности */
-  position: fixed; /* Фиксированное положение */
-  top: 0; /* Нулевой отступ сверху */
-  left:20vw;
-  width: 80%; /* Ширина максимальна */
-  z-index: 3; /* Заведомо быть НАД другими элементами */
-  transition: 1s;
-}

@@ -155,24 +155,129 @@ window.onclick = function(event) {
      mainpage.style.filter = "none";
   }
 }
-
+/* многоуровневое меню*/
 
 $('#sidebar_services').hover(
     function(){
        
+        $('#TB_overlay').css('display','block');
         $('#TB_overlay').css('background-color','black');
         $('#TB_overlay').css('opacity','0.5');
-        $('.secondlevelmenu').css('left','20vw');
+        $('#sidebar_services_secondlevel_block').css('left','20vw');
     },
     function(){
-        
+        $('#TB_overlay').css('display','none');
         $('#TB_overlay').css('background-color','white');
         $('#TB_overlay').css('opacity','0');
-        $('.secondlevelmenu').css('left','0vw');
+        $('#sidebar_services_secondlevel_block').css('left','0vw');
+    }
+);
+
+$('#sidebar_services_secondlevel_block').hover(
+    function(){
+        $('#sidebar_services_secondlevel_block').css('left','20vw');
+        $('#TB_overlay').css('display','block');
+        $('#TB_overlay').css('background-color','black');
+        $('#TB_overlay').css('opacity','0.5');
+    },
+    function(){
+        $('#sidebar_services_secondlevel_block').css('left','0vw');
+         $('#TB_overlay').css('display','none');
+        $('#TB_overlay').css('background-color','white');
+        $('#TB_overlay').css('opacity','0');
     }
 );
 
 
+$('#sidebar_production').hover(
+    function(){
+       
+        $('#TB_overlay').css('display','block');
+        $('#TB_overlay').css('background-color','black');
+        $('#TB_overlay').css('opacity','0.5');
+        $('#sidebar_production_secondlevel_block').css('left','20vw');
+    },
+    function(){
+        $('#TB_overlay').css('display','none');
+        $('#TB_overlay').css('background-color','white');
+        $('#TB_overlay').css('opacity','0');
+        $('#sidebar_production_secondlevel_block').css('left','0vw');
+    }
+);
+
+$('#sidebar_production_secondlevel_block').hover(
+    function(){
+        $('#sidebar_production_secondlevel_block').css('left','20vw');
+        $('#TB_overlay').css('display','block');
+        $('#TB_overlay').css('background-color','black');
+        $('#TB_overlay').css('opacity','0.5');
+    },
+    function(){
+        $('#sidebar_production_secondlevel_block').css('left','0vw');
+         $('#TB_overlay').css('display','none');
+        $('#TB_overlay').css('background-color','white');
+        $('#TB_overlay').css('opacity','0');
+    }
+);
+
+/* третий уровень меню*/
+$('#sidebar_boxes').hover(
+    function(){
+       
+        $('#TB_overlay').css('display','block');
+        $('#TB_overlay').css('background-color','black');
+        $('#TB_overlay').css('opacity','0.5');
+        $('#sidebar_boxes_thirdlevel_block').css('left','40vw');
+    },
+    function(){
+        
+        $('#sidebar_boxes_thirdlevel_block').css('left','0vw');
+    }
+);
+
+$('#sidebar_boxes_thirdlevel_block').hover(
+    function(){
+        $('#sidebar_production_secondlevel_block').css('left','20vw');
+        $('#sidebar_boxes_thirdlevel_block').css('left','40vw');
+        $('#TB_overlay').css('display','block');
+        $('#TB_overlay').css('background-color','black');
+        $('#TB_overlay').css('opacity','0.5');
+    },
+    function(){
+        $('#sidebar_production_secondlevel_block').css('left','0vw');
+        $('#sidebar_boxes_thirdlevel_block').css('left','0vw');
+         
+    }
+);
+
+
+$('#sidebar_pockets').hover(
+    function(){
+       
+        $('#TB_overlay').css('display','block');
+        $('#TB_overlay').css('background-color','black');
+        $('#TB_overlay').css('opacity','0.5');
+        $('#sidebar_pockets_thirdlevel_block').css('left','40vw');
+    },
+    function(){
+       
+        $('#sidebar_pockets_thirdlevel_block').css('left','0vw');
+    }
+);
+
+$('#sidebar_pockets_thirdlevel_block').hover(
+    function(){
+        $('#sidebar_production_secondlevel_block').css('left','20vw');
+        $('#sidebar_pockets_thirdlevel_block').css('left','40vw');
+        $('#TB_overlay').css('display','block');
+        $('#TB_overlay').css('background-color','black');
+        $('#TB_overlay').css('opacity','0.5');
+    },
+    function(){
+        $('#sidebar_production_secondlevel_block').css('left','0vw');
+        $('#sidebar_pockets_thirdlevel_block').css('left','0vw');
+             }
+);
 
 /*     */
 
