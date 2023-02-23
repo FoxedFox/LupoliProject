@@ -163,13 +163,16 @@ $('#sidebar_services').hover(
         $('#TB_overlay').css('display','block');
         $('#TB_overlay').css('background-color','black');
         $('#TB_overlay').css('opacity','0.5');
-        $('#sidebar_services_secondlevel_block').css('left','20vw');
+       // $('#sidebar_services_secondlevel_block').css('left','20vw');
+        $('#sidebar_services_secondlevel_block').css('transform','translate3d(100%,0,0)');
     },
+
     function(){
         $('#TB_overlay').css('display','none');
         $('#TB_overlay').css('background-color','white');
         $('#TB_overlay').css('opacity','0');
-        $('#sidebar_services_secondlevel_block').css('left','0vw');
+        //$('#sidebar_services_secondlevel_block').css('left','0vw');
+        $('#sidebar_services_secondlevel_block').css('transform','translate3d(0%,0,0)');
     }
 );
 
