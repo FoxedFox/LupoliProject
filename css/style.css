@@ -2,16 +2,20 @@ body {
   font-family:Montserrat;
   background: #fff;
 }
+.first_level_header{
+ font-size: 4em;
+ color: #2F8CE9;
+}
+.second_level_header{
+ font-size: 2em;
+ color:#727b8c;
+}
+.regular_text
+{
+ font-size: 1em;
+ color:#727b8c;
+}
 
-/* h1 {
-  font-size: 5.9vw;
-}
-h2 {
-  font-size: 3.0vh;
-}
-p {
-  font-size: 2vmin;
-}*/
 .interval1{
   height: 150px;
 }
@@ -32,7 +36,6 @@ img {
 .centred_headers
 {
   text-align: center;  
-  color:#727b8c;
 }
 
 .centred_headers img{
@@ -43,15 +46,13 @@ object-fit: contain;
 
 h1{
   color: #2F8CE9;
-  font-size: 3em;
 }
 h2{
-  font-size: 80%;
   font-weight: normal;
 }
 .gridheaders
 {
-  font-size: 32px;
+  
   color: #898996;
   font-weight: 800;
 }
@@ -104,7 +105,6 @@ h2{
   width: 100%;
   height: 100%;
   color: white;
-  font-size: 2vh;
   font-weight: bold;
   display: flex;
   align-items: center;
@@ -142,7 +142,6 @@ h2{
   width: 100%;
   height: 100%;
   color: white;
-  font-size: 3.0vh;
   font-weight: bold;
   display: flex;
   align-items: end;
@@ -178,6 +177,8 @@ h2{
   color: #727b8c;
   margin:0 14% 0 16%;
   width: 80%;
+  flex-direction: column;
+  gap: 10px;
 }
 
 /* заказать письмо или звонок*/
@@ -187,12 +188,28 @@ h2{
   justify-content: space-evenly;
   text-align: center;  
   color: #727b8c; 
-  font-size: 3vmin;
+  transition: 1s linear;
 }
 .centred_feedback i{
   color: #8ab928;
+  transition: 1s linear;
  
 }
+#MyCallButton:hover{
+  color: #207fdc;
+  transition: 0.5s linear;
+}
+#MyCallButton:hover i{
+  font-size: 1.15em;
+}
+#MyEmailButton:hover{
+  color: #207fdc;
+  transition: 0.5s linear;
+}
+#MyEmailButton:hover i{
+  font-size: 1.15em;
+}
+
 
 
 /* bokovoe menu*/
@@ -229,7 +246,6 @@ h2{
   flex-direction: column;
   flex: 1;
   justify-content: space-around;
-  font-size: 18px;
   margin-top: 50px;
   margin-bottom: 30px;
   color: #727b8c;
@@ -239,7 +255,6 @@ h2{
   color: currentcolor;
   text-decoration: none;
   cursor: pointer;
-  font-size: 1.1em;
 }
 .sidebar__menu a:hover {
   background-color: #f1f3f7;
@@ -257,7 +272,7 @@ h2{
   transition: 0.5s linear;
   z-index: 9;
   box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
-  opacity: 0;
+  opacity: 0.6;
 }
 
 
@@ -288,7 +303,7 @@ h2{
   flex-direction: column;
   transition: 0.75s linear;
   z-index: 8;
-  opacity: 0;
+  opacity: 0.25;
 }
 
 
@@ -297,8 +312,9 @@ h2{
 
 
 #TB_overlay {
-  display: none;
-  background-color: #fff; /* Чёрный фон */
+  /*display: none;*/
+  visibility: hidden;
+  background-color: black; /* Чёрный фон */
   height: 100%; /* Высота максимальна */
   left: 0; /* Нулевой отступ слева */
   opacity: 0; /* Степень прозрачности */
@@ -307,7 +323,7 @@ h2{
   left:20vw;
   width: 80%; /* Ширина максимальна */
   z-index: 3; /* Заведомо быть НАД другими элементами */
-  transition: 1s;
+  transition: 1s linear;
 }
 
 
@@ -338,7 +354,6 @@ bottom: 6%;
   flex-direction: column; 
   flex: 1; 
   justify-content: space-around;
-  font-size: 18px;
   color: #727b8c;
   font-weight: 800;
 }
@@ -378,6 +393,7 @@ bottom: 6%;
 {
 text-align: center;
 color: #687384;
+transition: 1s;
 }
 
 .seemore:hover{
@@ -417,15 +433,20 @@ color: #687384;
   display: flex;
   height: 2.5em;
   min-width: 2.5em;
-  padding: 0 4em;
+  padding: 0 2em;
   position: relative;
   transition: 1s ease;
   
 }
 .Button-inner:hover{
   color: #8ab928;
-  font-size: 1.15em;
   background: #fff;
+  cursor: pointer;
+  padding: 0 1.9em;
+}
+.Button-inner:hover p{
+  font-size: 1.15em;
+  transition: 0s ease;
 }
 
 
@@ -577,7 +598,6 @@ color: #687384;
   left: 0;
   width: 100%;
   height: 100%;
-  font-size: 16px;
   line-height: 1.2;
   background: rgba(0, 0, 0, 0.8);
   justify-content: center; /* чтобы контейнер */
@@ -614,13 +634,12 @@ color: #687384;
 /* Заголовок правой колонки */
 .topic-text {
   padding: 10px;
-  font-size: 23px;
   font-weight: 600;
   color: #fff;
   margin-bottom: 20px;
   background: #95a3b0;
   text-align: center;
-
+  
 }
 
 .topicContainer{
@@ -675,7 +694,6 @@ color: #687384;
   margin:  0% 0% 0% 36%;;
   color: #fff;
   text-align: center;
-  font-size: 18px;
   background: #95a3b0;
   outline: none;
   border: none;
@@ -708,8 +726,8 @@ color: #687384;
   color: #fff;
   width: 50px;
   float: right;
-  font-size: 40px;
   font-weight: bold;
+  font-size: 32px;
 }
 
 .closefeedback:hover,
@@ -743,7 +761,6 @@ color: #687384;
 
       .swiper-slide {
         text-align: center;
-        font-size: 18px;
         
 
         /* Center slide text vertically */
@@ -780,12 +797,11 @@ color: #687384;
 }
 .sliderseemore{
     color: white;
-    font-size: 20px;
     font-weight: 800;
     text-align: center;
     z-index: 1000;
     position: absolute;
-    left: 50%;
+    left: 49.5%;
     transform: translate(-50%);
     bottom: 6%
 }
@@ -850,7 +866,6 @@ padding: 45px 30px 45px;
 .textcols {
   
   white-space: nowrap;
-  font-size: 0;
 }
 .textcols-item {
   white-space: normal;  
@@ -858,19 +873,18 @@ padding: 45px 30px 45px;
   width: 26%;
   vertical-align: top;
   margin-right: 10%;
-  font-size: 14px;
 }
 .textcols .textcols-item:last-child {
   margin-right: 0 ;
 }
 .footerheadertext{
   color: #4f7202;
-  font-size: 3vmin;
+  font-size: 1.5em;
 }
 
 .footersimpletext{
   color: #fff;
-  font-size: 2vmin;
+  text-decoration: none;
 }
 
 .footerfooter{
@@ -887,10 +901,12 @@ padding: 45px 30px 45px;
 .footerfootertext{
   vertical-align: middle;
   text-align: center;
-  font-weight: bold;
+  color: #fff;
 }
 .footerupper{
-  border-left-style: solid;
+  border-width: 0px 0px 0px 1px;
+  border-style: solid;
+  border-color: #8ab928;
   position: absolute;
   right: 0px;
   font-weight: bold;
@@ -900,6 +916,7 @@ padding: 45px 30px 45px;
   padding-bottom: 12px;
   vertical-align: middle;
   text-align: center;
+  text-decoration: none;
 }
 .footerupper:hover{
   background: #8ab928;
@@ -914,7 +931,21 @@ padding: 45px 30px 45px;
 .footermobilephone{
   color: #fff;
 }
+#footeremail:hover{
+ color: #4d7000;
+ cursor: pointer;
+ transition: 1s;
 
-
+}
+.footersimpletext a{
+  text-decoration: none;
+  color: #fff;
+}
+.footersimpletext a:hover{
+color: #4d7000;
+ cursor: pointer;
+ transition: 1s;
+ text-decoration: none;
+}
 
 
