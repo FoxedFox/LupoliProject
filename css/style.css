@@ -183,34 +183,62 @@ h2{
 
 /* заказать письмо или звонок*/
 .centred_feedback{
-  padding-top: 1.6em;
   display: flex;
+  padding-top: 1.6em;
+  cursor: pointer; 
+  margin: 30px;
   justify-content: space-evenly;
   text-align: center;  
   color: #727b8c; 
   transition: 1s linear;
+  clear: both;
+  align-items: center;
+
 }
 .centred_feedback i{
   color: #8ab928;
   transition: 1s linear;
+
  
 }
+#MyCallButton:{
+   display: flex;
+  align-items: center;
+  height: 28px;
+}
+#MyEmailButton:{
+   display: flex;
+  align-items: center;
+  height: 28px;
+}
+
 #MyCallButton:hover{
+  display: flex;
+  align-items: center;
   color: #207fdc;
   transition: 0.5s linear;
 }
 #MyCallButton:hover i{
-  font-size: 1.15em;
+  font-size: 1.75em;
 }
 #MyEmailButton:hover{
+  display: flex;
+  align-items: center;
   color: #207fdc;
   transition: 0.5s linear;
 }
 #MyEmailButton:hover i{
-  font-size: 1.15em;
+  font-size: 1.75em;
 }
 
+#MyCallButtonFA{
+  font-size: 1.5em;
 
+}
+
+#MyEmailButtonFA{
+  font-size: 1.5em;
+}
 
 /* bokovoe menu*/
 .sidebar {
@@ -391,14 +419,30 @@ bottom: 6%;
 /*кнопка узнать больше*/
 .seemore
 {
+width: 200px;
+position: absolute;
+margin-left: auto;
+margin-right: auto;
+z-index: 2;
+left: 20%;
+right: 0;
 text-align: center;
 color: #687384;
 transition: 1s;
-}
 
+}
+.fa-chevron-right{
+  font-size: 1.15em;
+  transition: 1s;
+}
 .seemore:hover{
  color: #207fdc;
  cursor: pointer;
+ transition: 0s;
+}
+.seemore:hover .fa-chevron-right{
+ font-size: 1.3em;
+ transition: 0s;
 }
 /*кнопка сделать заказ*/
 .OrderButton {
@@ -415,6 +459,7 @@ transition: 1s;
   position: relative;
   text-align: center;
   text-decoration: none;
+  width: 200px;
 }
 .OrderButton:focus {
   outline: none;
@@ -424,6 +469,8 @@ transition: 1s;
   border: 0;
 }
 .Button-inner {
+  text-align: center;
+  justify-content: center;
   align-items: center;
   border: 2px solid #8ab928;
   border-radius: 99em;
@@ -432,19 +479,25 @@ transition: 1s;
   font-weight: 600;
   display: flex;
   height: 2.5em;
-  min-width: 2.5em;
-  padding: 0 2em;
   position: relative;
   transition: 1s ease;
   
+}
+.Button-inner p{
+    text-align: center;
+  align-items: center;
+  transition: 1s ease;
 }
 .Button-inner:hover{
   color: #8ab928;
   background: #fff;
   cursor: pointer;
   padding: 0 1.9em;
+  transition: 1s ease;
 }
 .Button-inner:hover p{
+  text-align: center;
+  align-items: center;
   font-size: 1.15em;
   transition: 0s ease;
 }
@@ -716,7 +769,6 @@ transition: 1s;
 
 
 
-
 /* The Close Button */
 .closefeedback {
   position: relative;
@@ -801,7 +853,7 @@ transition: 1s;
     text-align: center;
     z-index: 1000;
     position: absolute;
-    left: 49.5%;
+    left: 50%;
     transform: translate(-50%);
     bottom: 6%
 }
