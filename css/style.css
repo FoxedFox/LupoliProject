@@ -162,7 +162,7 @@ h2{
   height: 250px;
 }
 .wisdom{
-    background-image: url(../img/anyproduct.jpg); /* "мудрая" заглушка*/
+    background-image: url(../img/service_1.jpg); /* "мудрая" заглушка*/
 }
 
 /* костыль на список */
@@ -858,7 +858,7 @@ transition: 1s;
     left: 50%;
     transform: translate(-50%);
     bottom: 6%
-    
+
 }
     
 
@@ -940,6 +940,7 @@ padding: 45px 30px 45px;
 .footersimpletext{
   color: #fff;
   text-decoration: none;
+  line-height: 120%;
 }
 
 .footerfooter{
@@ -981,7 +982,8 @@ padding: 45px 30px 45px;
 .mobilefootertext{
   display: none;
   text-align: center;
-  color: #95a3b0
+  color: #95a3b0;
+  transition: 0.6s;
 }
 .footermobilephone{
   color: #fff;
@@ -989,17 +991,18 @@ padding: 45px 30px 45px;
 #footeremail:hover{
  color: #4d7000;
  cursor: pointer;
- transition: 1s;
+ transition: 0.6s;
 
 }
 .footersimpletext a{
   text-decoration: none;
   color: #fff;
+  transition: 0.6s;
 }
 .footersimpletext a:hover{
 color: #4d7000;
  cursor: pointer;
- transition: 1s;
+ transition: 0.6s;
  text-decoration: none;
 }
 
