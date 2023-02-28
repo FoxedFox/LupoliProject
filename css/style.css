@@ -99,26 +99,37 @@ h2{
   display: flex;
   align-items: center;
   justify-content: center;
-  filter: brightness(90%);
+
 }
+
 .cardtext{
   width: 100%;
   height: 100%;
   color: white;
-  font-weight: bold;
+  font-size: 2em;
   display: flex;
   align-items: center;
   text-align: center;
   justify-content: center;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(0,165,196, 0.8);
+  transition: 0.4s;
 
 }
+.cardtextwrapper{
+  transition: 0.4s;
+}
+
+
 .cardtext:hover{
-  background-color: rgba(0, 0, 0, 0.8);
-  transition: 0.8s;
+  background-color: rgba(0, 0, 0, 0);
+  transition: 0.4s;
   cursor: pointer;
 }
-
+.cardtext:hover .cardtextwrapper{
+    font-size: 1.5em;
+    transition: 0.4s;
+    opacity: 0;
+}
 /* столбец похожих на сетку штук*/
 .containermobile {
   display: none;
