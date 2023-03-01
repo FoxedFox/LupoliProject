@@ -111,26 +111,26 @@ var closefbemail = document.getElementById("closefbemail");
 
 orderbtn.onclick = function() {
   feedback.style.display = "flex",
-  mainpage.style.filter = "blur(6px)",
-  sidebar.style.filter = "blur(6px)",
+  mainpage.style.filter = "blur(8px)",
+  sidebar.style.filter = "blur(8px)",
   feedback.style.filter = "none";
 }
 callbtn.onclick = function() {
   callfeedback.style.display = "flex",
-  mainpage.style.filter = "blur(6px)",
- sidebar.style.filter = "blur(6px)",
+  mainpage.style.filter = "blur(8px)",
+ sidebar.style.filter = "blur(8px)",
   feedback.style.filter = "none";
 }
 emailbtn.onclick = function() {
   emailfeedback.style.display = "flex",
-  mainpage.style.filter = "blur(6px)",
-sidebar.style.filter = "blur(6px)",
+  mainpage.style.filter = "blur(8px)",
+sidebar.style.filter = "blur(8px)",
   feedback.style.filter = "none";
 }
 footeremail.onclick = function() {
   emailfeedback.style.display = "flex",
-  mainpage.style.filter = "blur(6px)",
-sidebar.style.filter = "blur(6px)",
+  mainpage.style.filter = "blur(8px)",
+sidebar.style.filter = "blur(8px)",
   feedback.style.filter = "none";
 }
 

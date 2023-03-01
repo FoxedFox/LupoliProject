@@ -675,7 +675,7 @@ transition: 1s;
   justify-content: center; /* чтобы контейнер */
   align-items: center; /* был по центру */
   z-index: 79;
-
+  transition: 5s;
 }
 
 /* Ограничиваем контейнер по ширине 1000px */
