@@ -457,7 +457,6 @@ transition: 0.5s;
   transition: 0.5s;
 }
 .seemore:hover{
- color: #207fdc;
  cursor: pointer;
  transition: 0.5s;
  background-color: rgba(241, 243, 247, 1.0);
