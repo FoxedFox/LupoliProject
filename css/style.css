@@ -94,12 +94,13 @@ h2{
   height: 210px;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
-  
+  overflow: hidden;
+  background-size: 110%;
+  background-image: url(../img/service_1.jpg); /* "мудрая" заглушка*/
 
 }
 
@@ -126,6 +127,12 @@ h2{
   background-color: rgba(0, 0, 0, 0);
   transition: 0.4s;
   cursor: pointer;
+  
+}
+.cardtext:hover .card{
+  background-size: 100%;
+  background-position: relative;
+  transition: 0.4s;
   
 }
 .cardtext:hover .cardtextwrapper{
@@ -178,9 +185,7 @@ h2{
   width: 380px;
   height: 250px;
 }
-.wisdom{
-    background-image: url(../img/service_1.jpg); /* "мудрая" заглушка*/
-}
+
 
 /* костыль на список */
 
@@ -218,44 +223,30 @@ h2{
 
  
 }
-#MyCallButton:{
-   display: flex;
-  align-items: center;
-  height: 28px;
-}
-#MyEmailButton:{
-   display: flex;
-  align-items: center;
-  height: 28px;
-}
 
-#MyCallButton:hover{
-  display: flex;
+#MyCallButton{
+   display: flex;
   align-items: center;
-  color: #207fdc;
-  transition: 0.5s linear;
+  transition: 0.5s;
+  padding: 10px;
+  transition: 0.5s;
 }
-#MyCallButton:hover i{
-  font-size: 1.75em;
+#MyEmailButton{
+   display: flex;
+  align-items: center;
+  transition: 0.5s;
+  padding: 10px;
+}
+#MyCallButton:hover{
+  background-color: rgba(241, 243, 247, 1.0);
+  transition: 0.5s;
 }
 #MyEmailButton:hover{
-  display: flex;
-  align-items: center;
-  color: #207fdc;
-  transition: 0.5s linear;
-}
-#MyEmailButton:hover i{
-  font-size: 1.75em;
+  background-color: rgba(241, 243, 247, 1.0);
+  transition: 0.5s;
 }
 
-#MyCallButtonFA{
-  font-size: 1.5em;
 
-}
-
-#MyEmailButtonFA{
-  font-size: 1.5em;
-}
 
 /* bokovoe menu*/
 .sidebar {
@@ -438,7 +429,9 @@ bottom: 6%;
 /*кнопка узнать больше*/
 .seemore
 {
-width: 200px;
+display: flex;
+align-items: center;
+width: 150px;
 position: absolute;
 margin-left: auto;
 margin-right: auto;
@@ -447,22 +440,23 @@ left: 20%;
 right: 0;
 text-align: center;
 color: #687384;
-transition: 1s;
+padding: 3px 5px;
+transition: 0.5s;
+
 
 }
 .fa-chevron-right{
+  padding-top: 3px ;
   font-size: 1.15em;
-  transition: 1s;
+  transition: 0.5s;
 }
 .seemore:hover{
  color: #207fdc;
  cursor: pointer;
- transition: 0s;
+ transition: 0.5s;
+ background-color: rgba(241, 243, 247, 1.0);
 }
-.seemore:hover .fa-chevron-right{
- font-size: 1.3em;
- transition: 0s;
-}
+
 /*кнопка сделать заказ*/
 .OrderButton {
   background: transparent;
