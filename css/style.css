@@ -99,8 +99,6 @@ h2{
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  background-size: 110%;
-  background-image: url(../img/service_1.jpg); /* "мудрая" заглушка*/
 
 }
 
@@ -113,12 +111,23 @@ h2{
   align-items: center;
   text-align: center;
   justify-content: center;
+  position: relative;
   background-color: rgba(0,165,196, 0.8);
   transition: 0.4s;
+  background-size: 100%;
+  background-image: url(../img/service_1.jpg); 
+  background-position: center;
 
 }
 .cardtextwrapper{
   transition: 0.4s;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(0,165,196, 0.8);
   
 }
 
@@ -127,18 +136,15 @@ h2{
   background-color: rgba(0, 0, 0, 0);
   transition: 0.4s;
   cursor: pointer;
+  background-size: 110%;
   
 }
-.cardtext:hover .card{
-  background-size: 100%;
-  background-position: relative;
-  transition: 0.4s;
-  
-}
+
 .cardtext:hover .cardtextwrapper{
-    font-size: 1.5em;
+    font-size: 1.1em;
     transition: 0.4s;
     opacity: 0;
+    background-color: rgba(0, 0, 0, 0);
 }
 
 
