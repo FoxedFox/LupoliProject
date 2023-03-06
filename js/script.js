@@ -24,6 +24,7 @@ nextEl:'.swiper-button-next',
 prevEl:'.swiper-button-prev'
     },
 effect:'fade',
+loop:true,
 pagination:{
  el:'.swiper-pagination',
 clickable: true,
@@ -34,10 +35,7 @@ clickable: true,
 
 /* ПК-слайдер с брендами*/
 new Swiper(".BrendSwiper", {
-        navigation:{
-            /* добавление кнопок*/
-nextEl:'.swiper-button-next',
-prevEl:'.swiper-button-prev'},
+       
 /*количество слайдов показывает*/
 slidesPerView: 6,
 spacebetween: 1,

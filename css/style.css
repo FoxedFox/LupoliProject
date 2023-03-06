@@ -851,7 +851,8 @@ transition: 0.5s;
 
       .swiper-slide img {
         display: block;
-        height: 100%;
+        height: 100vh;
+        width: 80vw;
         object-fit: cover;
       }
 .slidercover{
@@ -874,7 +875,8 @@ transition: 0.5s;
     position: absolute;
     left: 50%;
     transform: translate(-50%);
-    bottom: 6%
+    bottom: 6%;
+    font-size: 18px;
 
 }
     
