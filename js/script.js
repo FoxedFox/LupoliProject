@@ -255,6 +255,9 @@ $('#sidebar_boxes').hover(//#sidebar_boxes_thirdlevel_block
         
         $('#sidebar_boxes_thirdlevel_block').css('transform','translate3d(0%,0,0)');
         $('#sidebar_boxes_thirdlevel_block').css('opacity','0');
+        $('#TB_overlay').css('visibility','hidden');
+        $('#TB_overlay').css('background-color','black');
+        $('#TB_overlay').css('opacity','0');
     }
 );
 
@@ -273,6 +276,9 @@ $('#sidebar_boxes_thirdlevel_block').hover(//#sidebar_production_secondlevel_blo
         $('#sidebar_production_secondlevel_block').css('opacity','0.7');
         $('#sidebar_boxes_thirdlevel_block').css('transform','translate3d(0%,0,0)');
         $('#sidebar_boxes_thirdlevel_block').css('opacity','0');
+        $('#TB_overlay').css('visibility','hidden');
+        $('#TB_overlay').css('background-color','black');
+        $('#TB_overlay').css('opacity','0');
          
     }
 );
@@ -290,6 +296,9 @@ $('#sidebar_pockets').hover(
     function(){
         $('#sidebar_pockets_thirdlevel_block').css('transform','translate3d(0%,0,0)');
         $('#sidebar_pockets_thirdlevel_block').css('opacity','0');
+        $('#TB_overlay').css('visibility','hidden');
+        $('#TB_overlay').css('background-color','black');
+        $('#TB_overlay').css('opacity','0');
     }
 );
 
@@ -297,17 +306,20 @@ $('#sidebar_pockets_thirdlevel_block').hover(
     function(){
         $('#sidebar_production_secondlevel_block').css('transform','translate3d(100%,0,0)');
         $('#sidebar_production_secondlevel_block').css('opacity','1');
-        $('#sidebar_boxes_thirdlevel_block').css('transform','translate3d(200%,0,0)');
-        $('#sidebar_boxes_thirdlevel_block').css('opacity','1');
+        $('#sidebar_pockets_thirdlevel_block').css('transform','translate3d(200%,0,0)');
+        $('#sidebar_pockets_thirdlevel_block').css('opacity','1');
         $('#TB_overlay').css('visibility','visible');
         $('#TB_overlay').css('background-color','black');
         $('#TB_overlay').css('opacity','0.5');
     },
     function(){
-        $('#sidebar_production_secondlevel_block').css('transform','translate3d(100%,0,0)');
+        $('#sidebar_production_secondlevel_block').css('transform','translate3d(0%,0,0)');
         $('#sidebar_production_secondlevel_block').css('opacity','0.7');
-        $('#sidebar_pockets_thirdlevel_block').css('transform','translate3d(200%,0,0)');
+        $('#sidebar_pockets_thirdlevel_block').css('transform','translate3d(0%,0,0)');
         $('#sidebar_pockets_thirdlevel_block').css('opacity','0');
+        $('#TB_overlay').css('visibility','hidden');
+        $('#TB_overlay').css('background-color','black');
+        $('#TB_overlay').css('opacity','0');
              }
 );
 
