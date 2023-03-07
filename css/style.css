@@ -294,16 +294,18 @@ h2{
 .sidebar__menu {
   display: flex;
   position: relative;
-  top: 230px;
+  top: 200px;
   flex-direction: column;
-  flex: 1;
+  /* flex: 1; */
   justify-content: space-around;
   margin-top: 50px;
   margin-bottom: 30px;
   color: #727b8c;
+  height: 280px;
+  width: 20vw;
 }
 .sidebar__menu a {
-    padding: 4% 30px;
+  padding: 4% 30px;
   color: currentcolor;
   text-decoration: none;
   cursor: pointer;
@@ -332,7 +334,7 @@ h2{
 
 #sidebar_production_secondlevel{
   position: relative;
-  top: 0px;
+  top: 235px;
 }
 
 
@@ -342,9 +344,16 @@ h2{
 }
 #sidebar_services_secondlevel{
   position: relative;
-  top: 0px;
+  top: 295px;
 }
-
+#sidebar_boxes_thirdlevel{
+  position: relative;
+  top: 270px;
+}
+#sidebar_pockets_thirdlevel{
+  position: relative;
+  top: 305px;
+}
 .thirdlevelmenu{
   height: 100vh;
   width: 20vw;
@@ -839,53 +848,53 @@ transition: 0.5s;
 
 
 .swiper {
-
-        width: 100%;
-        height: 80%;
-      }
-
-      .swiper-slide {
-        text-align: center;
-        
-
-        /* Center slide text vertically */
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: -webkit-flex;
-        display: flex;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        -webkit-justify-content: center;
-        justify-content: center;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        -webkit-align-items: center;
-        align-items: center;
-      }
-
-      .swiper-slide img {
-        display: block;
-        object-fit: cover;
-      }
-      #div_registerA{
-        height: 100vh;
-        width: 80vw;
-      }
-      #div_registerB{
-        height: 100vh;
-        width: 80vw;
-      }
-      #div_registerC{
-        height: 100vh;
-        width: 80vw;
-      }
+width: 100%;
+height: 80%;
+}
+.swiper-slide {
+text-align: center;
+/* Center slide text vertically */
+display: -webkit-box;
+display: -ms-flexbox;
+display: -webkit-flex;
+display: flex;
+-webkit-box-pack: center;
+-ms-flex-pack: center;
+-webkit-justify-content: center;
+justify-content: center;
+-webkit-box-align: center;
+-ms-flex-align: center;
+-webkit-align-items: center;
+align-items: center;
+}
+.swiper-slide img {
+display: block;
+object-fit: cover;
+}
+#div_registerA{
+height: 100vh;
+width: 80vw;
+}
+#div_registerB{
+height: 100vh;
+width: 80vw;
+}
+#div_registerC{
+height: 100vh;
+width: 80vw;
+}
 .slidercover{
-  width: 100%;
-        height: 100%;            
-        position: absolute;
-        top: 0;
-        left: 0;
-        opacity: 0.8;
+width: 100%;
+height: 100%;            
+position: absolute;
+top: 0;
+left: 0;
+opacity: 0.8;
+}
+.slidervideo{
+  height: 100vh;
+  width: 80vw;
+  object-fit: fill;
 }
 .swiper-pagination
 {
