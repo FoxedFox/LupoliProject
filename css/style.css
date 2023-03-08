@@ -3,12 +3,14 @@ body {
   background: #fff;
 }
 .first_level_header{
- font-size: 4em;
+ font-size: 3.4em;
  color: #2F8CE9;
+ font-weight: bold;
 }
 .second_level_header{
- font-size: 2em;
- color:#727b8c;
+ font-size: 1.9em;
+ color:#656e7d;
+ font-weight: bold;
 }
 .regular_text
 {
@@ -52,9 +54,6 @@ h2{
 }
 .gridheaders
 {
-  
-  color: #898996;
-  font-weight: 800;
 }
 
 
@@ -239,17 +238,20 @@ h2{
 }
 
 #MyCallButton{
-   display: flex;
+  display: flex;
   align-items: center;
   transition: 0.5s;
-  padding: 10px;
   transition: 0.5s;
+  padding: 10px 35px;
+  border-radius: 99px;
 }
 #MyEmailButton{
-   display: flex;
+  display: flex;
   align-items: center;
   transition: 0.5s;
   padding: 10px;
+  padding: 10px 35px;
+  border-radius: 99px;
 }
 #MyCallButton:hover{
   background-color: rgba(241, 243, 247, 1.0);
@@ -925,7 +927,7 @@ opacity: 0.8;
 
 .brandsliderwrapper
 {
- height: 123px;
+ height: 173px;
  width: auto;
 }
 
@@ -975,11 +977,12 @@ opacity: 0.8;
 .footer{
 
 background: #8ab928;
-padding: 45px 30px 45px;
+padding: 45px 60px 45px;
 }
 
 .textcols {
-  
+      display: flex;
+    justify-content: space-between;
   white-space: nowrap;
 }
 .textcols-item {
