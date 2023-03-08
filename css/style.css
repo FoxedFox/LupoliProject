@@ -63,8 +63,16 @@ h2{
 {
   margin-left: 20vw;
    background: #fff;
+   transition: 1s;
+
   
 }
+
+#mainer,#mySwiperb{
+  transition: 1s;
+}
+
+
 
 .centredmaincontainer
 {
@@ -280,12 +288,12 @@ h2{
   top: 30px;
   left: 30px;
   overflow: hidden;
-  transition: 1s;
+  transition: 0.5s;
   z-index: 4;
 }
 .sidebar .avatar img:hover {
-  transform: scale(1.1);
-  transition: 1s;
+  transform: scale(1.05);
+  transition: 0.5s;
 }
 .sidebar__menuwrapp{
   height: 40vh;
@@ -407,11 +415,11 @@ bottom: 6%;
   
 }
 .social img{
-  transition: 1s;
+  transition: 0.5s;
 }
 .social img:hover {
   transform: scale(1.2);
-  transition: 1s; 
+  transition: 0.5s; 
   cursor: pointer;
 }
 #telephone{

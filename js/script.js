@@ -25,6 +25,12 @@ prevEl:'.swiper-button-prev'
     },
 effect:'fade',
 loop:true,
+autoplay:{
+    delay: 9300,
+    disableOnInteraction: false
+},
+
+
 pagination:{
  el:'.swiper-pagination',
 clickable: true,
@@ -165,6 +171,8 @@ $('#sidebar_services').hover(
         $('#TB_overlay').css('visibility','visible');
         $('#TB_overlay').css('background-color','black');
         $('#TB_overlay').css('opacity','0.5');
+        $('#mainer').css('filter','blur(8px)');
+        $('#mySwiperb').css('filter','blur(8px)');
        // $('#sidebar_services_secondlevel_block').css('left','20vw');
         $('#sidebar_services_secondlevel_block').css('transform','translate3d(100%,0,0)');
         $('#sidebar_services_secondlevel_block').css('opacity','1');
@@ -174,6 +182,8 @@ $('#sidebar_services').hover(
         $('#TB_overlay').css('visibility','hidden');
         $('#TB_overlay').css('background-color','black');
         $('#TB_overlay').css('opacity','0');
+        $('#mainer').css('filter','none');
+        $('#mySwiperb').css('filter','none');
         //$('#sidebar_services_secondlevel_block').css('left','0vw');
         $('#sidebar_services_secondlevel_block').css('transform','translate3d(0%,0,0)');
         $('#sidebar_services_secondlevel_block').css('opacity','0.7');
@@ -188,6 +198,8 @@ $('#sidebar_services_secondlevel_block').hover(
         $('#TB_overlay').css('visibility','visible');
         $('#TB_overlay').css('background-color','black');
         $('#TB_overlay').css('opacity','0.5');
+        $('#mainer').css('filter','blur(8px)');
+        $('#mySwiperb').css('filter','blur(8px)');
     },
     function(){
         $('#sidebar_services_secondlevel_block').css('transform','translate3d(0%,0,0)');
@@ -196,6 +208,8 @@ $('#sidebar_services_secondlevel_block').hover(
         $('#TB_overlay').css('visibility','hidden');
         $('#TB_overlay').css('background-color','black');
         $('#TB_overlay').css('opacity','0');
+        $('#mainer').css('filter','none');
+        $('#mySwiperb').css('filter','none');
     }
 );
 
@@ -206,6 +220,8 @@ $('#sidebar_production').hover(
         $('#TB_overlay').css('visibility','visible');
         $('#TB_overlay').css('background-color','black');
         $('#TB_overlay').css('opacity','0.5');
+        $('#mainer').css('filter','blur(8px)');
+        $('#mySwiperb').css('filter','blur(8px)');
         $('#sidebar_production_secondlevel_block').css('transform','translate3d(100%,0,0)');
         $('#sidebar_production_secondlevel_block').css('opacity','1');
     },
@@ -213,8 +229,11 @@ $('#sidebar_production').hover(
         $('#TB_overlay').css('visibility','hidden');
         $('#TB_overlay').css('background-color','black');
         $('#TB_overlay').css('opacity','0');
+        $('#mainer').css('filter','none');
+        $('#mySwiperb').css('filter','none');
         $('#sidebar_production_secondlevel_block').css('transform','translate3d(0%,0,0)');
         $('#sidebar_production_secondlevel_block').css('opacity','0.7');
+
     }
 );
 
@@ -225,6 +244,8 @@ $('#sidebar_production_secondlevel_block').hover(
         $('#TB_overlay').css('visibility','visible');
         $('#TB_overlay').css('background-color','black');
         $('#TB_overlay').css('opacity','0.5');
+        $('#mainer').css('filter','blur(8px)');
+        $('#mySwiperb').css('filter','blur(8px)');
     },
     function(){
         $('#sidebar_production_secondlevel_block').css('transform','translate3d(0%,0,0)');
@@ -232,6 +253,8 @@ $('#sidebar_production_secondlevel_block').hover(
          $('#TB_overlay').css('visibility','hidden');
         $('#TB_overlay').css('background-color','black');
         $('#TB_overlay').css('opacity','0');
+        $('#mainer').css('filter','none');
+        $('#mySwiperb').css('filter','none');
     }
 );
 
@@ -242,6 +265,8 @@ $('#sidebar_boxes').hover(//#sidebar_boxes_thirdlevel_block
         $('#TB_overlay').css('visibility','visible');
         $('#TB_overlay').css('background-color','black');
         $('#TB_overlay').css('opacity','0.5');
+        $('#mainer').css('filter','blur(8px)');
+        $('#mySwiperb').css('filter','blur(8px)');
         $('#sidebar_boxes_thirdlevel_block').css('transform','translate3d(200%,0,0)');
         $('#sidebar_boxes_thirdlevel_block').css('opacity','1');
     },
@@ -252,6 +277,8 @@ $('#sidebar_boxes').hover(//#sidebar_boxes_thirdlevel_block
         $('#TB_overlay').css('visibility','hidden');
         $('#TB_overlay').css('background-color','black');
         $('#TB_overlay').css('opacity','0');
+        $('#mainer').css('filter','none');
+        $('#mySwiperb').css('filter','none');
     }
 );
 
@@ -264,7 +291,10 @@ $('#sidebar_boxes_thirdlevel_block').hover(//#sidebar_production_secondlevel_blo
         $('#TB_overlay').css('visibility','visible');
         $('#TB_overlay').css('background-color','black');
         $('#TB_overlay').css('opacity','0.5');
+        $('#mainer').css('filter','blur(8px)');
+        $('#mySwiperb').css('filter','blur(8px)');
     },
+
     function(){
         $('#sidebar_production_secondlevel_block').css('transform','translate3d(0%,0,0)');
         $('#sidebar_production_secondlevel_block').css('opacity','0.7');
@@ -273,6 +303,8 @@ $('#sidebar_boxes_thirdlevel_block').hover(//#sidebar_production_secondlevel_blo
         $('#TB_overlay').css('visibility','hidden');
         $('#TB_overlay').css('background-color','black');
         $('#TB_overlay').css('opacity','0');
+        $('#mainer').css('filter','none');
+        $('#mySwiperb').css('filter','none');
          
     }
 );
@@ -284,6 +316,8 @@ $('#sidebar_pockets').hover(
         $('#TB_overlay').css('visibility','visible');
         $('#TB_overlay').css('background-color','black');
         $('#TB_overlay').css('opacity','0.5');
+        $('#mainer').css('filter','blur(8px)');
+        $('#mySwiperb').css('filter','blur(8px)');
         $('#sidebar_pockets_thirdlevel_block').css('transform','translate3d(200%,0,0)');
         $('#sidebar_pockets_thirdlevel_block').css('opacity','1');
     },
@@ -293,6 +327,8 @@ $('#sidebar_pockets').hover(
         $('#TB_overlay').css('visibility','hidden');
         $('#TB_overlay').css('background-color','black');
         $('#TB_overlay').css('opacity','0');
+        $('#mainer').css('filter','none');
+        $('#mySwiperb').css('filter','none');
     }
 );
 
@@ -305,6 +341,8 @@ $('#sidebar_pockets_thirdlevel_block').hover(
         $('#TB_overlay').css('visibility','visible');
         $('#TB_overlay').css('background-color','black');
         $('#TB_overlay').css('opacity','0.5');
+        $('#mainer').css('filter','blur(8px)');
+        $('#mySwiperb').css('filter','blur(8px)');
     },
     function(){
         $('#sidebar_production_secondlevel_block').css('transform','translate3d(0%,0,0)');
@@ -314,6 +352,8 @@ $('#sidebar_pockets_thirdlevel_block').hover(
         $('#TB_overlay').css('visibility','hidden');
         $('#TB_overlay').css('background-color','black');
         $('#TB_overlay').css('opacity','0');
+        $('#mainer').css('filter','none');
+        $('#mySwiperb').css('filter','none');
              }
 );
 
