@@ -510,7 +510,7 @@ transition: 0.5s;
   position: relative;
   text-align: center;
   text-decoration: none;
-  width: 200px;
+  width: 264px;
 }
 .OrderButton:focus {
   outline: none;
@@ -523,34 +523,31 @@ transition: 0.5s;
   text-align: center;
   justify-content: center;
   align-items: center;
-  border: 2px solid #8ab928;
+  border: 1px solid #8ab928;
   border-radius: 99em;
   color: #fff;
   background: #8ab928;
-  font-weight: 600;
   display: flex;
-  height: 2.5em;
   position: relative;
-  transition: 1s ease;
+  transition: 0.5s ease;
+  height: 61px;
   
 }
 .Button-inner p{
     text-align: center;
   align-items: center;
-  transition: 1s ease;
+  transition: 0.5s ease;
 }
 .Button-inner:hover{
   color: #8ab928;
   background: #fff;
   cursor: pointer;
-  padding: 0 1.9em;
-  transition: 1s ease;
+  transition: 0.5s ease;
 }
 .Button-inner:hover p{
   text-align: center;
   align-items: center;
-  font-size: 1.15em;
-  transition: 0s ease;
+  transition: 0.5s ease;
 }
 
 
