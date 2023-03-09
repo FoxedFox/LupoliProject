@@ -169,8 +169,8 @@ $('#sidebar_services').hover(
     function(){
        
         $('#TB_overlay').css('visibility','visible');
-        $('#TB_overlay').css('background-color','black');
-        $('#TB_overlay').css('opacity','0.5');
+        $('#TB_overlay').css('background-color','rgb(0,165,196)');
+        $('#TB_overlay').css('opacity','0.1');
         $('#mainer').css('filter','blur(8px)');
         $('#mySwiperb').css('filter','blur(8px)');
        // $('#sidebar_services_secondlevel_block').css('left','20vw');
@@ -180,7 +180,7 @@ $('#sidebar_services').hover(
 
     function(){
         $('#TB_overlay').css('visibility','hidden');
-        $('#TB_overlay').css('background-color','black');
+        $('#TB_overlay').css('background-color','rgb(0,165,196)');
         $('#TB_overlay').css('opacity','0');
         $('#mainer').css('filter','none');
         $('#mySwiperb').css('filter','none');
@@ -196,8 +196,8 @@ $('#sidebar_services_secondlevel_block').hover(
         $('#sidebar_services_secondlevel_block').css('opacity','1');
         //$('#sidebar_services_secondlevel_block').css('left','20vw');
         $('#TB_overlay').css('visibility','visible');
-        $('#TB_overlay').css('background-color','black');
-        $('#TB_overlay').css('opacity','0.5');
+        $('#TB_overlay').css('background-color','rgb(0,165,196)');
+        $('#TB_overlay').css('opacity','0.1');
         $('#mainer').css('filter','blur(8px)');
         $('#mySwiperb').css('filter','blur(8px)');
     },
@@ -206,7 +206,7 @@ $('#sidebar_services_secondlevel_block').hover(
         $('#sidebar_services_secondlevel_block').css('opacity','0.7');
         //$('#sidebar_services_secondlevel_block').css('left','0vw');
         $('#TB_overlay').css('visibility','hidden');
-        $('#TB_overlay').css('background-color','black');
+        $('#TB_overlay').css('background-color','rgb(0,165,196)');
         $('#TB_overlay').css('opacity','0');
         $('#mainer').css('filter','none');
         $('#mySwiperb').css('filter','none');
@@ -218,8 +218,8 @@ $('#sidebar_production').hover(
     function(){
        
         $('#TB_overlay').css('visibility','visible');
-        $('#TB_overlay').css('background-color','black');
-        $('#TB_overlay').css('opacity','0.5');
+        $('#TB_overlay').css('background-color','rgb(0,165,196)');
+        $('#TB_overlay').css('opacity','0.1');
         $('#mainer').css('filter','blur(8px)');
         $('#mySwiperb').css('filter','blur(8px)');
         $('#sidebar_production_secondlevel_block').css('transform','translate3d(100%,0,0)');
@@ -227,7 +227,7 @@ $('#sidebar_production').hover(
     },
     function(){
         $('#TB_overlay').css('visibility','hidden');
-        $('#TB_overlay').css('background-color','black');
+        $('#TB_overlay').css('background-color','rgb(0,165,196)');
         $('#TB_overlay').css('opacity','0');
         $('#mainer').css('filter','none');
         $('#mySwiperb').css('filter','none');
@@ -242,8 +242,8 @@ $('#sidebar_production_secondlevel_block').hover(
         $('#sidebar_production_secondlevel_block').css('transform','translate3d(100%,0,0)');
         $('#sidebar_production_secondlevel_block').css('opacity','1');
         $('#TB_overlay').css('visibility','visible');
-        $('#TB_overlay').css('background-color','black');
-        $('#TB_overlay').css('opacity','0.5');
+        $('#TB_overlay').css('background-color','rgb(0,165,196)');
+        $('#TB_overlay').css('opacity','0.1');
         $('#mainer').css('filter','blur(8px)');
         $('#mySwiperb').css('filter','blur(8px)');
     },
@@ -251,7 +251,7 @@ $('#sidebar_production_secondlevel_block').hover(
         $('#sidebar_production_secondlevel_block').css('transform','translate3d(0%,0,0)');
         $('#sidebar_production_secondlevel_block').css('opacity','0.7');
          $('#TB_overlay').css('visibility','hidden');
-        $('#TB_overlay').css('background-color','black');
+        $('#TB_overlay').css('background-color','rgb(0,165,196)');
         $('#TB_overlay').css('opacity','0');
         $('#mainer').css('filter','none');
         $('#mySwiperb').css('filter','none');
@@ -263,8 +263,8 @@ $('#sidebar_boxes').hover(//#sidebar_boxes_thirdlevel_block
     function(){
        
         $('#TB_overlay').css('visibility','visible');
-        $('#TB_overlay').css('background-color','black');
-        $('#TB_overlay').css('opacity','0.5');
+        $('#TB_overlay').css('background-color','rgb(0,165,196)');
+        $('#TB_overlay').css('opacity','0.1');
         $('#mainer').css('filter','blur(8px)');
         $('#mySwiperb').css('filter','blur(8px)');
         $('#sidebar_boxes_thirdlevel_block').css('transform','translate3d(200%,0,0)');
@@ -275,7 +275,7 @@ $('#sidebar_boxes').hover(//#sidebar_boxes_thirdlevel_block
         $('#sidebar_boxes_thirdlevel_block').css('transform','translate3d(0%,0,0)');
         $('#sidebar_boxes_thirdlevel_block').css('opacity','0');
         $('#TB_overlay').css('visibility','hidden');
-        $('#TB_overlay').css('background-color','black');
+        $('#TB_overlay').css('background-color','rgb(0,165,196)');
         $('#TB_overlay').css('opacity','0');
         $('#mainer').css('filter','none');
         $('#mySwiperb').css('filter','none');
@@ -289,8 +289,8 @@ $('#sidebar_boxes_thirdlevel_block').hover(//#sidebar_production_secondlevel_blo
         $('#sidebar_boxes_thirdlevel_block').css('transform','translate3d(200%,0,0)');
         $('#sidebar_boxes_thirdlevel_block').css('opacity','1');
         $('#TB_overlay').css('visibility','visible');
-        $('#TB_overlay').css('background-color','black');
-        $('#TB_overlay').css('opacity','0.5');
+        $('#TB_overlay').css('background-color','rgb(0,165,196)');
+        $('#TB_overlay').css('opacity','0.1');
         $('#mainer').css('filter','blur(8px)');
         $('#mySwiperb').css('filter','blur(8px)');
     },
@@ -301,7 +301,7 @@ $('#sidebar_boxes_thirdlevel_block').hover(//#sidebar_production_secondlevel_blo
         $('#sidebar_boxes_thirdlevel_block').css('transform','translate3d(0%,0,0)');
         $('#sidebar_boxes_thirdlevel_block').css('opacity','0');
         $('#TB_overlay').css('visibility','hidden');
-        $('#TB_overlay').css('background-color','black');
+        $('#TB_overlay').css('background-color','rgb(0,165,196)');
         $('#TB_overlay').css('opacity','0');
         $('#mainer').css('filter','none');
         $('#mySwiperb').css('filter','none');
@@ -314,8 +314,8 @@ $('#sidebar_pockets').hover(
     function(){
        
         $('#TB_overlay').css('visibility','visible');
-        $('#TB_overlay').css('background-color','black');
-        $('#TB_overlay').css('opacity','0.5');
+        $('#TB_overlay').css('background-color','rgb(0,165,196)');
+        $('#TB_overlay').css('opacity','0.1');
         $('#mainer').css('filter','blur(8px)');
         $('#mySwiperb').css('filter','blur(8px)');
         $('#sidebar_pockets_thirdlevel_block').css('transform','translate3d(200%,0,0)');
@@ -325,7 +325,7 @@ $('#sidebar_pockets').hover(
         $('#sidebar_pockets_thirdlevel_block').css('transform','translate3d(0%,0,0)');
         $('#sidebar_pockets_thirdlevel_block').css('opacity','0');
         $('#TB_overlay').css('visibility','hidden');
-        $('#TB_overlay').css('background-color','black');
+        $('#TB_overlay').css('background-color','rgb(0,165,196)');
         $('#TB_overlay').css('opacity','0');
         $('#mainer').css('filter','none');
         $('#mySwiperb').css('filter','none');
@@ -339,8 +339,8 @@ $('#sidebar_pockets_thirdlevel_block').hover(
         $('#sidebar_pockets_thirdlevel_block').css('transform','translate3d(200%,0,0)');
         $('#sidebar_pockets_thirdlevel_block').css('opacity','1');
         $('#TB_overlay').css('visibility','visible');
-        $('#TB_overlay').css('background-color','black');
-        $('#TB_overlay').css('opacity','0.5');
+        $('#TB_overlay').css('background-color','rgb(0,165,196)');
+        $('#TB_overlay').css('opacity','0.1');
         $('#mainer').css('filter','blur(8px)');
         $('#mySwiperb').css('filter','blur(8px)');
     },
@@ -350,7 +350,7 @@ $('#sidebar_pockets_thirdlevel_block').hover(
         $('#sidebar_pockets_thirdlevel_block').css('transform','translate3d(0%,0,0)');
         $('#sidebar_pockets_thirdlevel_block').css('opacity','0');
         $('#TB_overlay').css('visibility','hidden');
-        $('#TB_overlay').css('background-color','black');
+        $('#TB_overlay').css('background-color','rgb(0,165,196)');
         $('#TB_overlay').css('opacity','0');
         $('#mainer').css('filter','none');
         $('#mySwiperb').css('filter','none');

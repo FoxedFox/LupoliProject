@@ -113,7 +113,7 @@ h2{
   width: 100%;
   height: 100%;
   color: white;
-  font-size: 2em;
+  font-size: 1.6em;
   display: flex;
   align-items: center;
   text-align: center;
@@ -136,6 +136,16 @@ h2{
     text-align: center;
     background-color: rgba(0,165,196, 0.8);
   
+}
+.vip{
+  display: contents;
+  font-size: 3em; 
+  font-weight: 700; 
+  text-align: center;
+}
+.aftervip{
+  display: contents;
+  font-size: 0.6em;
 }
 
 
