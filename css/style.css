@@ -63,6 +63,7 @@ h2{
   margin-left: 20vw;
    background: #fff;
    transition: 1s;
+   overflow:hidden;
 
   
 }
@@ -287,6 +288,8 @@ h2{
   box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
   z-index: 10;
   font-size: 18px;
+  transition: 1s;
+  overflow: hidden;
 }
 .sidebar .avatar {
   width: 20vw;
@@ -402,8 +405,7 @@ h2{
   opacity: 0; /* Степень прозрачности */
   position: fixed; /* Фиксированное положение */
   top: 0; /* Нулевой отступ сверху */
-  left:20vw;
-  width: 80%; /* Ширина максимальна */
+  width: 100%; /* Ширина максимальна */
   z-index: 3; /* Заведомо быть НАД другими элементами */
   transition: 1s linear;
 }
@@ -481,7 +483,6 @@ bottom: 6%;
 display: flex;
 align-items: center;
 width: 150px;
-position: absolute;
 margin-left: auto;
 margin-right: auto;
 z-index: 2;
@@ -704,17 +705,19 @@ transition: 0.5s;
 
 .feedback {
   display: none;
+  visibility: hidden;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   line-height: 1.2;
-  background: rgba(0, 165, 196, 0.1);
+  background: rgba(0, 0, 0, 0);
   justify-content: center; /* чтобы контейнер */
   align-items: center; /* был по центру */
   z-index: 79;
-  transition: 5s;
+  transition: 1s linear;
+  
 }
 
 /* Ограничиваем контейнер по ширине 1000px */
