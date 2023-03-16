@@ -704,8 +704,8 @@ transition: 0.5s;
 
 
 .feedback {
-  display: none;
-  visibility: hidden;
+  /*display: none;
+  visibility: hidden;*/
   position: fixed;
   top: 0;
   left: 0;
@@ -735,7 +735,6 @@ transition: 0.5s;
   align-items: center; /* выравниваем по центру */
   justify-content: center; 
   background: #fff;
-  padding-bottom: 20px;
   border-radius: 5px;
   box-shadow: 4px 4px 8px 0 rgba(34, 60, 80, 0.2);
 }
@@ -743,7 +742,8 @@ transition: 0.5s;
 
 /* Стили правой колонки */
 .right-side {
-  width: 100%; /* занимает 75% общей ширины */
+  width: 100%; 
+  background-color: #d1edf1;
 }
 
 /* Заголовок правой колонки */
