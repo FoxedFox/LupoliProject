@@ -403,6 +403,157 @@ $('#sidebar_pockets_thirdlevel_block').hover(
 
 
 
+
+
+const form1 = document.getElementById("form1");
+const form2 = document.getElementById("form2");
+const form3 = document.getElementById("form3");
+const form4 = document.getElementById("form4");
+const form5 = document.getElementById("form5");
+const form6 = document.getElementById("form6");
+const form7 = document.getElementById("form7");
+const form8 = document.getElementById("form8");
+const form9 = document.getElementById("form9");
+
+form1.addEventListener(
+  "focus",
+  (event) => {
+    event.target.placeholder = " ";
+  },
+  true
+);
+form1.addEventListener(
+  "blur",
+  (event) => {
+    event.target.placeholder = "ваш e-mail";
+  },
+  true
+);
+
+form2.addEventListener(
+  "focus",
+  (event) => {
+    event.target.placeholder = " ";
+  },
+  true
+);
+form2.addEventListener(
+  "blur",
+  (event) => {
+    event.target.placeholder = "ваш телефон";
+  },
+  true
+);
+
+form3.addEventListener(
+  "focus",
+  (event) => {
+    event.target.placeholder = " ";
+  },
+  true
+);
+form3.addEventListener(
+  "blur",
+  (event) => {
+    event.target.placeholder = "как к вам обращаться";
+  },
+  true
+);
+
+form4.addEventListener(
+  "focus",
+  (event) => {
+    event.target.placeholder = " ";
+  },
+  true
+);
+form4.addEventListener(
+  "blur",
+  (event) => {
+    event.target.placeholder = "описание заказа";
+  },
+  true
+);
+
+form5.addEventListener(
+  "focus",
+  (event) => {
+    event.target.placeholder = " ";
+  },
+  true
+);
+form5.addEventListener(
+  "blur",
+  (event) => {
+    event.target.placeholder = "ваш телефон";
+  },
+  true
+);
+
+form6.addEventListener(
+  "focus",
+  (event) => {
+    event.target.placeholder = " ";
+  },
+  true
+);
+form6.addEventListener(
+  "blur",
+  (event) => {
+    event.target.placeholder = "как к вам обращаться";
+  },
+  true
+);
+
+form7.addEventListener(
+  "focus",
+  (event) => {
+    event.target.placeholder = " ";
+  },
+  true
+);
+form7.addEventListener(
+  "blur",
+  (event) => {
+    event.target.placeholder = "ваш e-mail";
+  },
+  true
+);
+
+form8.addEventListener(
+  "focus",
+  (event) => {
+    event.target.placeholder = " ";
+  },
+  true
+);
+form8.addEventListener(
+  "blur",
+  (event) => {
+    event.target.placeholder = "тема";
+  },
+  true
+);
+
+form9.addEventListener(
+  "focus",
+  (event) => {
+    event.target.placeholder = " ";
+  },
+  true
+);
+form9.addEventListener(
+  "blur",
+  (event) => {
+    event.target.placeholder = "описание заказа";
+  },
+  true
+);
+
+
+
+
+
 /*     */
 
 

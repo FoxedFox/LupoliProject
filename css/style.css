@@ -780,9 +780,8 @@ transition: 0.5s;
 }
 
 /* Стили для input и textarea (поле сообщение) */
-.input-box input,
-.input-box textarea {
-  height: 80%; /* растягиваем на всю высоту контейнера 50px */
+.input-box input{
+  height: 75%; /* растягиваем на всю высоту контейнера 50px */
   width: 95%; /* растягиваем на всю ширину */
   padding: 0 10px; /* отступ справа и слева 20px */
   text-align: center;
@@ -793,27 +792,19 @@ transition: 0.5s;
 
 
 ::placeholder { 
-   color:    #879ba8;
+   color: #baccde;
+   font-size: 1em;
+   font-style: italic;
 }
 
 }
 input[type="text"]:focus {
 outline: 1px solid #15a4b9;
 }
-/* Отдельно стилизуем поле сообщение */
-.input-box textarea {
-  resize: none; /* чтобы нельзя было менять высоту */
-  padding: 10px;
-  text-align: center;
-}
-
 /* Это контейнер для поля сообщение */
 .message-box {
   min-height: 110px;
-   /* минимальная высота 110px */
-}
-.message-box textarea:focus {
-outline: 1px solid #15a4b9;
+  resize: none; 
 }
 /* Стили для контейнера кнопки */
 .feedback_button {
@@ -822,12 +813,12 @@ outline: 1px solid #15a4b9;
 
 /* Стили для самой кнопки */
 .feedback_button{
-  margin:  0% 0% 0% 37%;;
+  margin:  0% 0% 0% 32%;;
   color: #fff;
   text-align: center;
   background: #8ab928;
   outline: 2px solid #fff;
-  padding: 13px 20px;
+  padding: 12px 41px 14px;
   border-radius: 999px;
   cursor: pointer;
   margin-top: 25px;
@@ -850,9 +841,9 @@ outline: 1px solid #15a4b9;
 
 
 .closefeedback {
-     position: absolute;
-    top: 0px;
-    right: 0px;
+    position: absolute;
+    top: -8px;
+    right: -8px;
     transition: 1s;
     
 }
