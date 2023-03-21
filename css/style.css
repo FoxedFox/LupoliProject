@@ -744,7 +744,7 @@ transition: 0.5s;
   width: 100%; 
   background-color: #d1edf1;
   margin: 6px;
-  border-radius: 33px;
+  border-radius: 30px;
 }
 
 /* Заголовок правой колонки */
@@ -755,7 +755,7 @@ transition: 0.5s;
   margin-bottom: 30px;
   background: #15a4b9;
   text-align: center;
-  border-radius: 33px 33px 0px 0;
+  border-radius: 30px 30px 0px 0;
   
 }
 
@@ -785,7 +785,7 @@ transition: 0.5s;
   width: 95%; /* растягиваем на всю ширину */
   padding: 0 10px; /* отступ справа и слева 20px */
   text-align: center;
-  outline: none;
+ 
   border: none;
   
 }
@@ -796,6 +796,15 @@ transition: 0.5s;
    font-size: 1em;
    font-style: italic;
 }
+
+input[type="text"] {
+outline: 0px solid #15a4b9; 
+font-size: 1em;
+ color:#727b8c;
+ font-family:Montserrat;
+}
+
+
 
 }
 input[type="text"]:focus {
@@ -822,7 +831,7 @@ outline: 1px solid #15a4b9;
   border-radius: 999px;
   cursor: pointer;
   margin-top: 25px;
-  margin-bottom: 20px; 
+  margin-bottom: 26px; 
   transition: 0.5s;
 }
 
