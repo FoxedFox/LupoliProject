@@ -800,13 +800,12 @@ transition: 0.5s;
 input[type="text"] {
 outline: 0px solid #15a4b9; 
 font-size: 1em;
- color:#727b8c;
  font-family:Montserrat;
-}
-
-
 
 }
+
+
+
 input[type="text"]:focus {
 outline: 1px solid #15a4b9;
 }
