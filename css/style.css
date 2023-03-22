@@ -328,13 +328,17 @@ h2{
   width: 20vw;
 }
 .sidebar__menu a {
-  padding: 4% 30px;
-  color: currentcolor;
-  text-decoration: none;
-  cursor: pointer;
-}
+      padding: 4% 10px;
+    color: currentcolor;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: 0.3s;
+  }
 .sidebar__menu a:hover {
-  background-color: #f1f3f7;
+  background-color: #d1edf1;
+  transition: 0.3s;
 }
 
 .secondlevelmenu{
