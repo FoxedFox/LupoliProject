@@ -408,7 +408,7 @@ h2{
   left: 0;
   display: flex;
   flex-direction: column;
-  transition: 0.75s linear;
+  transition: 0.4s linear;
   z-index: 6;
   opacity: 0.25;
   padding: 10px;
