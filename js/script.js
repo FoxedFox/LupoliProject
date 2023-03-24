@@ -217,6 +217,7 @@ $('#sidebar_services').hover(
         $('#TB_overlay').css('opacity','0.1');
         $('#mainer').css('filter','blur(8px)');
         $('#mySwiperb').css('filter','blur(8px)');
+        $('#sidebar').css('box-shadow','1px 0px 0px 0px rgba(0, 0, 0, .1)');
        // $('#sidebar_services_secondlevel_block').css('left','20vw');
         $('#sidebar_services_secondlevel_block').css('transform','translate3d(100%,0,0)');
         $('#sidebar_services_secondlevel_block').css('opacity','1');
@@ -231,6 +232,7 @@ $('#sidebar_services').hover(
         //$('#sidebar_services_secondlevel_block').css('left','0vw');
         $('#sidebar_services_secondlevel_block').css('transform','translate3d(0%,0,0)');
         $('#sidebar_services_secondlevel_block').css('opacity','0.7');
+        $('#sidebar').css('box-shadow','0 2px 4px rgba(0, 0, 0, .2)');
     }
 );
 
@@ -244,6 +246,8 @@ $('#sidebar_services_secondlevel_block').hover(
         $('#TB_overlay').css('opacity','0.1');
         $('#mainer').css('filter','blur(8px)');
         $('#mySwiperb').css('filter','blur(8px)');
+        $('#sidebar').css('box-shadow','1px 0px 0px 0px rgba(0, 0, 0, .1)');
+        $('#sidebar_services').css('background-color','rgb(241,243,247)');
     },
     function(){
         $('#sidebar_services_secondlevel_block').css('transform','translate3d(0%,0,0)');
@@ -254,6 +258,8 @@ $('#sidebar_services_secondlevel_block').hover(
         $('#TB_overlay').css('opacity','0');
         $('#mainer').css('filter','none');
         $('#mySwiperb').css('filter','none');
+        $('#sidebar').css('box-shadow','0 2px 4px rgba(0, 0, 0, .2)');
+        $('#sidebar_services').css('background-color','initial');
     }
 );
 
@@ -268,6 +274,7 @@ $('#sidebar_production').hover(
         $('#mySwiperb').css('filter','blur(8px)');
         $('#sidebar_production_secondlevel_block').css('transform','translate3d(100%,0,0)');
         $('#sidebar_production_secondlevel_block').css('opacity','1');
+        $('#sidebar').css('box-shadow','1px 0px 0px 0px rgba(0, 0, 0, .1)');
     },
     function(){
         $('#TB_overlay').css('visibility','hidden');
@@ -277,6 +284,7 @@ $('#sidebar_production').hover(
         $('#mySwiperb').css('filter','none');
         $('#sidebar_production_secondlevel_block').css('transform','translate3d(0%,0,0)');
         $('#sidebar_production_secondlevel_block').css('opacity','0.7');
+        $('#sidebar').css('box-shadow','0 2px 4px rgba(0, 0, 0, .2)');
 
     }
 );
@@ -290,6 +298,7 @@ $('#sidebar_production_secondlevel_block').hover(
         $('#TB_overlay').css('opacity','0.1');
         $('#mainer').css('filter','blur(8px)');
         $('#mySwiperb').css('filter','blur(8px)');
+        $('#sidebar').css('box-shadow','1px 0px 0px 0px rgba(0, 0, 0, .1)');
     },
     function(){
         $('#sidebar_production_secondlevel_block').css('transform','translate3d(0%,0,0)');
@@ -299,6 +308,7 @@ $('#sidebar_production_secondlevel_block').hover(
         $('#TB_overlay').css('opacity','0');
         $('#mainer').css('filter','none');
         $('#mySwiperb').css('filter','none');
+        $('#sidebar').css('box-shadow','0 2px 4px rgba(0, 0, 0, .2)');
     }
 );
 
@@ -313,6 +323,7 @@ $('#sidebar_boxes').hover(//#sidebar_boxes_thirdlevel_block
         $('#mySwiperb').css('filter','blur(8px)');
         $('#sidebar_boxes_thirdlevel_block').css('transform','translate3d(200%,0,0)');
         $('#sidebar_boxes_thirdlevel_block').css('opacity','1');
+        $('#sidebar').css('box-shadow','1px 0px 0px 0px rgba(0, 0, 0, .1)');
     },
     function(){
         
@@ -323,6 +334,7 @@ $('#sidebar_boxes').hover(//#sidebar_boxes_thirdlevel_block
         $('#TB_overlay').css('opacity','0');
         $('#mainer').css('filter','none');
         $('#mySwiperb').css('filter','none');
+        $('#sidebar').css('box-shadow','0 2px 4px rgba(0, 0, 0, .2)');
     }
 );
 
@@ -337,6 +349,7 @@ $('#sidebar_boxes_thirdlevel_block').hover(//#sidebar_production_secondlevel_blo
         $('#TB_overlay').css('opacity','0.1');
         $('#mainer').css('filter','blur(8px)');
         $('#mySwiperb').css('filter','blur(8px)');
+        $('#sidebar').css('box-shadow','1px 0px 0px 0px rgba(0, 0, 0, .1)');
     },
 
     function(){
@@ -349,6 +362,7 @@ $('#sidebar_boxes_thirdlevel_block').hover(//#sidebar_production_secondlevel_blo
         $('#TB_overlay').css('opacity','0');
         $('#mainer').css('filter','none');
         $('#mySwiperb').css('filter','none');
+        $('#sidebar').css('box-shadow','0 2px 4px rgba(0, 0, 0, .2)');
          
     }
 );
@@ -364,6 +378,7 @@ $('#sidebar_pockets').hover(
         $('#mySwiperb').css('filter','blur(8px)');
         $('#sidebar_pockets_thirdlevel_block').css('transform','translate3d(200%,0,0)');
         $('#sidebar_pockets_thirdlevel_block').css('opacity','1');
+        $('#sidebar').css('box-shadow','1px 0px 0px 0px rgba(0, 0, 0, .1)');
     },
     function(){
         $('#sidebar_pockets_thirdlevel_block').css('transform','translate3d(0%,0,0)');
@@ -373,6 +388,7 @@ $('#sidebar_pockets').hover(
         $('#TB_overlay').css('opacity','0');
         $('#mainer').css('filter','none');
         $('#mySwiperb').css('filter','none');
+        $('#sidebar').css('box-shadow','0 2px 4px rgba(0, 0, 0, .2)');
     }
 );
 
@@ -387,6 +403,7 @@ $('#sidebar_pockets_thirdlevel_block').hover(
         $('#TB_overlay').css('opacity','0.1');
         $('#mainer').css('filter','blur(8px)');
         $('#mySwiperb').css('filter','blur(8px)');
+        $('#sidebar').css('box-shadow','1px 0px 0px 0px rgba(0, 0, 0, .1)');
     },
     function(){
         $('#sidebar_production_secondlevel_block').css('transform','translate3d(0%,0,0)');
@@ -398,11 +415,60 @@ $('#sidebar_pockets_thirdlevel_block').hover(
         $('#TB_overlay').css('opacity','0');
         $('#mainer').css('filter','none');
         $('#mySwiperb').css('filter','none');
+        $('#sidebar').css('box-shadow','0 2px 4px rgba(0, 0, 0, .2)');
              }
 );
 
 
 
+$('#sidebar_contacts').hover(
+    function(){
+       
+        $('#TB_overlay').css('visibility','visible');
+        $('#TB_overlay').css('background-color','rgb(0,165,196)');
+        $('#TB_overlay').css('opacity','0.1');
+        $('#mainer').css('filter','blur(8px)');
+        $('#mySwiperb').css('filter','blur(8px)');
+        $('#sidebar_conatacts_secondlevel').css('transform','translate3d(100%,0,0)');
+        $('#sidebar_conatacts_secondlevel').css('opacity','1');
+        $('#sidebar').css('box-shadow','1px 0px 0px 0px rgba(0, 0, 0, .1)');
+    },
+    function(){
+        $('#TB_overlay').css('visibility','hidden');
+        $('#TB_overlay').css('background-color','rgb(0,165,196)');
+        $('#TB_overlay').css('opacity','0');
+        $('#mainer').css('filter','none');
+        $('#mySwiperb').css('filter','none');
+        $('#sidebar_conatacts_secondlevel').css('transform','translate3d(0%,0,0)');
+        $('#sidebar_conatacts_secondlevel').css('opacity','0.7');
+        $('#sidebar').css('box-shadow','0 2px 4px rgba(0, 0, 0, .2)');
+
+    }
+);
+$('#sidebar_conatacts_secondlevel').hover(
+    function(){
+       
+        $('#TB_overlay').css('visibility','visible');
+        $('#TB_overlay').css('background-color','rgb(0,165,196)');
+        $('#TB_overlay').css('opacity','0.1');
+        $('#mainer').css('filter','blur(8px)');
+        $('#mySwiperb').css('filter','blur(8px)');
+        $('#sidebar_conatacts_secondlevel').css('transform','translate3d(100%,0,0)');
+        $('#sidebar_conatacts_secondlevel').css('opacity','1');
+        $('#sidebar').css('box-shadow','1px 0px 0px 0px rgba(0, 0, 0, .1)');
+    },
+    function(){
+        $('#TB_overlay').css('visibility','hidden');
+        $('#TB_overlay').css('background-color','rgb(0,165,196)');
+        $('#TB_overlay').css('opacity','0');
+        $('#mainer').css('filter','none');
+        $('#mySwiperb').css('filter','none');
+        $('#sidebar_conatacts_secondlevel').css('transform','translate3d(0%,0,0)');
+        $('#sidebar_conatacts_secondlevel').css('opacity','0.7');
+        $('#sidebar').css('box-shadow','0 2px 4px rgba(0, 0, 0, .2)');
+
+    }
+);
 
 
 const form1 = document.getElementById("form1");

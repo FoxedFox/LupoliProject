@@ -60,7 +60,7 @@ h2{
 
 .maincontainer
 {
-  margin-left: 20vw;
+  margin-left:  300px;;
    background: #fff;
    transition: 1s;
    overflow:hidden;
@@ -278,7 +278,7 @@ h2{
 /* bokovoe menu*/
 .sidebar {
   height: 100vh;
-  width: 20vw;
+  width: 300px;
   background: #fff;
   position: fixed;
   top: 0;
@@ -325,25 +325,27 @@ h2{
   margin-bottom: 30px;
   color: #727b8c;
   height: 280px;
-  width: 20vw;
+  width: 300px;
 }
 .sidebar__menu a {
-      padding: 4% 10px;
+      padding: 4% 20px;
     color: currentcolor;
     text-decoration: none;
     cursor: pointer;
     margin-left: 10px;
     margin-right: 10px;
     transition: 0.3s;
+    border-radius: 8px;
   }
 .sidebar__menu a:hover {
   background-color: #d1edf1;
   transition: 0.3s;
 }
 
+
 .secondlevelmenu{
   height: 100vh;
-  width: 20vw;
+  width: 300px;
   background: #fff;
   position: fixed;
   top: 0;
@@ -352,7 +354,7 @@ h2{
   flex-direction: column;
   transition: 0.5s linear;
   z-index: 9;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+  box-shadow: 1px 0px 0px 0px rgba(0, 0, 0, .1);
   opacity: 0.6;
 }
 
@@ -383,7 +385,7 @@ h2{
 }
 .thirdlevelmenu{
   height: 100vh;
-  width: 20vw;
+  width: 300px;
   background: #fff;
   position: fixed;
   top: 0;
@@ -396,9 +398,27 @@ h2{
 }
 
 
+.secondlevelcontacts{
+  width: 480px;
+  margin-left: -200px;
+  height: 100vh;
+  background: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  transition: 0.75s linear;
+  z-index: 6;
+  opacity: 0.25;
+  padding: 10px;
+}
 
-
-
+.secondlevelcontacts_collumn{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
 
 #TB_overlay {
   /*display: none;*/
@@ -902,15 +922,15 @@ object-fit: cover;
 }
 #div_registerA{
 height: 100vh;
-width: 80vw;
+width: 100vw;
 }
 #div_registerB{
 height: 100vh;
-width: 80vw;
+width: 100vw;
 }
 #div_registerC{
 height: 100vh;
-width: 80vw;
+width: 100vw;
 }
 .slidercover{
 width: 100%;
@@ -922,7 +942,7 @@ opacity: 0.8;
 }
 .slidervideo{
   height: 100vh;
-  width: 80vw;
+  width: 100vw;
   object-fit: fill;
 }
 .swiper-pagination
