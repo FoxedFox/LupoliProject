@@ -338,7 +338,7 @@ h2{
     border-radius: 8px;
   }
 .sidebar__menu a:hover {
-  background-color: #d1edf1;
+  background-color: #d1edf1 !important;
   transition: 0.3s;
 }
 

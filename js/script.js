@@ -299,6 +299,7 @@ $('#sidebar_production_secondlevel_block').hover(
         $('#mainer').css('filter','blur(8px)');
         $('#mySwiperb').css('filter','blur(8px)');
         $('#sidebar').css('box-shadow','1px 0px 0px 0px rgba(0, 0, 0, .1)');
+        $('#sidebar_production').css('background-color','rgb(241,243,247)');
     },
     function(){
         $('#sidebar_production_secondlevel_block').css('transform','translate3d(0%,0,0)');
@@ -309,6 +310,7 @@ $('#sidebar_production_secondlevel_block').hover(
         $('#mainer').css('filter','none');
         $('#mySwiperb').css('filter','none');
         $('#sidebar').css('box-shadow','0 2px 4px rgba(0, 0, 0, .2)');
+        $('#sidebar_production').css('background-color','initial');
     }
 );
 
@@ -324,6 +326,7 @@ $('#sidebar_boxes').hover(//#sidebar_boxes_thirdlevel_block
         $('#sidebar_boxes_thirdlevel_block').css('transform','translate3d(200%,0,0)');
         $('#sidebar_boxes_thirdlevel_block').css('opacity','1');
         $('#sidebar').css('box-shadow','1px 0px 0px 0px rgba(0, 0, 0, .1)');
+
     },
     function(){
         
@@ -350,6 +353,8 @@ $('#sidebar_boxes_thirdlevel_block').hover(//#sidebar_production_secondlevel_blo
         $('#mainer').css('filter','blur(8px)');
         $('#mySwiperb').css('filter','blur(8px)');
         $('#sidebar').css('box-shadow','1px 0px 0px 0px rgba(0, 0, 0, .1)');
+        $('#sidebar_production').css('background-color','rgb(241,243,247)');
+        $('#sidebar_boxes').css('background-color','rgb(241,243,247)');
     },
 
     function(){
@@ -363,7 +368,8 @@ $('#sidebar_boxes_thirdlevel_block').hover(//#sidebar_production_secondlevel_blo
         $('#mainer').css('filter','none');
         $('#mySwiperb').css('filter','none');
         $('#sidebar').css('box-shadow','0 2px 4px rgba(0, 0, 0, .2)');
-         
+        $('#sidebar_production').css('background-color','initial');
+        $('#sidebar_boxes').css('background-color','initial');
     }
 );
 
@@ -404,6 +410,8 @@ $('#sidebar_pockets_thirdlevel_block').hover(
         $('#mainer').css('filter','blur(8px)');
         $('#mySwiperb').css('filter','blur(8px)');
         $('#sidebar').css('box-shadow','1px 0px 0px 0px rgba(0, 0, 0, .1)');
+        $('#sidebar_production').css('background-color','rgb(241,243,247)');
+        $('#sidebar_pockets').css('background-color','rgb(241,243,247)');
     },
     function(){
         $('#sidebar_production_secondlevel_block').css('transform','translate3d(0%,0,0)');
@@ -416,7 +424,9 @@ $('#sidebar_pockets_thirdlevel_block').hover(
         $('#mainer').css('filter','none');
         $('#mySwiperb').css('filter','none');
         $('#sidebar').css('box-shadow','0 2px 4px rgba(0, 0, 0, .2)');
-             }
+        $('#sidebar_production').css('background-color','initial');
+        $('#sidebar_pockets').css('background-color','initial');
+        }
 );
 
 
