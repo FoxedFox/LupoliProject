@@ -466,6 +466,7 @@ $('#sidebar_conatacts_secondlevel').hover(
         $('#sidebar_conatacts_secondlevel').css('transform','translate3d(100%,0,0)');
         $('#sidebar_conatacts_secondlevel').css('opacity','1');
         $('#sidebar').css('box-shadow','1px 0px 0px 0px rgba(0, 0, 0, .1)');
+
     },
     function(){
         $('#TB_overlay').css('visibility','hidden');

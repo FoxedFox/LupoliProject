@@ -352,10 +352,11 @@ h2{
   left: 0;
   display: flex;
   flex-direction: column;
-  transition: 0.5s linear;
+  transition: 0.15s linear;
   z-index: 9;
   box-shadow: 1px 0px 0px 0px rgba(0, 0, 0, .1);
   opacity: 0.6;
+  font-size: 18px;
 }
 
 
@@ -392,9 +393,10 @@ h2{
   left: 0;
   display: flex;
   flex-direction: column;
-  transition: 0.75s linear;
+  transition: 0.3s linear;
   z-index: 8;
   opacity: 0.25;
+  font-size: 18px;
 }
 
 
@@ -408,17 +410,35 @@ h2{
   left: 0;
   display: flex;
   flex-direction: column;
-  transition: 0.4s linear;
+  transition: 0.15s linear;
   z-index: 6;
   opacity: 0.25;
   padding: 10px;
+  font-size: 18px;
 }
+
+
+.contacts_img{
+  position: absolute;
+  bottom: 0px;
+}
+
 
 .secondlevelcontacts_collumn{
   display: flex;
   flex-direction: column;
   text-align: center;
 }
+.contactsstings{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#sidebar_contacts:active {
+   background-color: rgb(241,243,247) !important;
+}
+
+
 
 #TB_overlay {
   /*display: none;*/
