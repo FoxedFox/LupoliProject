@@ -102,7 +102,8 @@ var sidebar =  document.getElementById("sidebar");
 var orderbtn = document.getElementById("MyOrderButton");
 var callbtn = document.getElementById("MyCallButton");
 var emailbtn = document.getElementById("MyEmailButton");
-var footeremail = document.getElementById("footeremail")
+var footeremail = document.getElementById("footeremail");
+var sidebarmail = document.getElementById("contactmail");
 
 var closefbc = document.getElementById("closefb");
 var closefbcall = document.getElementById("closefbcall");
@@ -155,7 +156,17 @@ sidebar.style.filter = "blur(8px)",
   $('#TB_overlay').css('opacity','0.1');
   $('#sidebar').css('background-color','rgb(230,246,249)');
 }
-
+sidebarmail.onclick = function() {
+  emailfeedback.style.display = "flex",
+  emailfeedback.style.visibility = "visible",
+  mainpage.style.filter = "blur(8px)",
+sidebar.style.filter = "blur(8px)",
+  feedback.style.filter = "none";
+  $('#TB_overlay').css('visibility','visible');
+  $('#TB_overlay').css('background-color','rgb(0,165,196)');
+  $('#TB_overlay').css('opacity','0.1');
+  $('#sidebar').css('background-color','rgb(230,246,249)');
+}
 
 closefbc.onclick = function() {
   feedback.style.display = "none",

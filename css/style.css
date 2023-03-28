@@ -412,15 +412,18 @@ h2{
   flex-direction: column;
   transition: 0.15s linear;
   z-index: 6;
-  opacity: 0.25;
+  /*opacity: 0.25;*/
   padding: 10px;
   font-size: 18px;
 }
 
 
-.contacts_img{
-  position: absolute;
-  bottom: 0px;
+.contacts_img img{
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    max-height: 290px;
 }
 
 
@@ -430,15 +433,30 @@ h2{
   text-align: center;
 }
 .contactsstings{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    left: 15%;
+    text-align: left;
+    padding: 10px;
+    border-radius: 10px;
+    width: 290px;
+    font-size: 18px;
+}
+.contactsstings p{
+  position: relative;
+ left: 20px;
 }
 #sidebar_contacts:active {
    background-color: rgb(241,243,247) !important;
 }
-
-
+#contactmail{
+  background-color: white;
+}
+#contactmail:hover{
+  cursor: pointer;
+  background-color: rgb(241, 243, 247);
+}
 
 #TB_overlay {
   /*display: none;*/
