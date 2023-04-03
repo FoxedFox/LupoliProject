@@ -3,7 +3,7 @@ body {
   background: #fff;
 }
 .first_level_header{
- font-size: 3.4em;
+ font-size: 3em;
  color: #2F8CE9;
  font-weight: bold;
 }
@@ -26,6 +26,9 @@ body {
 }
 .interval3{
   height: 20px;
+}
+.interval4{
+  height: 30px;
 }
 img {
   max-width: 100%;
@@ -136,6 +139,19 @@ h2{
     align-items: center;
     text-align: center;
     background-color: rgba(0,165,196, 0.8);
+    font-size: 0.8em;
+  
+}
+.cardtextwrappervip{
+  transition: 0.4s;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(242,165,8, 0.5);
+    font-size: 0.8em;
   
 }
 .vip{
@@ -146,7 +162,7 @@ h2{
 }
 .aftervip{
   display: contents;
-  font-size: 0.6em;
+  font-size: 0.7em;
 }
 
 
@@ -159,6 +175,12 @@ h2{
 }
 
 .cardtext:hover .cardtextwrapper{
+    font-size: 1.1em;
+    transition: 0.4s;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0);
+}
+.cardtext:hover .cardtextwrappervip{
     font-size: 1.1em;
     transition: 0.4s;
     opacity: 0;
@@ -479,7 +501,7 @@ h2{
 .sidebar_social{
 position: absolute;
 width: 100%;
-bottom: 6%;
+bottom: 30px;
 }
 .social{
   display: flex;
@@ -552,9 +574,9 @@ left: 20%;
 right: 0;
 text-align: center;
 color: #687384;
-padding: 3px 5px;
+padding: 3px 15px 4px 20px;
 transition: 0.5s;
-
+border-radius: 999px;
 
 }
 .fa-chevron-right{
@@ -565,7 +587,7 @@ transition: 0.5s;
 .seemore:hover{
  cursor: pointer;
  transition: 0.5s;
- background-color: rgba(241, 243, 247, 1.0);
+ background-color:#d1edf1;
 }
 
 /*кнопка сделать заказ*/
@@ -612,8 +634,8 @@ transition: 0.5s;
   transition: 0.5s ease;
 }
 .Button-inner:hover{
-  color: #8ab928;
-  background: #fff;
+  color: #fff;
+  background: #6e9417;
   cursor: pointer;
   transition: 0.5s ease;
 }
@@ -995,7 +1017,7 @@ opacity: 0.8;
     position: absolute;
     left: 50%;
     transform: translate(-50%);
-    bottom: 6%;
+    bottom: 5%;
     font-size: 18px;
 
 }
