@@ -116,10 +116,7 @@ orderbtn.onclick = function() {
   mainpage.style.filter = "blur(8px)",
   sidebar.style.filter = "blur(8px)",
   feedback.style.filter = "none";
-  $('#TB_overlay').css('visibility','visible');
-  $('#TB_overlay').css('background-color','rgb(0,165,196)');
-  $('#TB_overlay').css('opacity','0.1');
-  $('#sidebar').css('background-color','rgb(230,246,249)');
+
 
 }
 callbtn.onclick = function() {
@@ -128,10 +125,7 @@ callbtn.onclick = function() {
   mainpage.style.filter = "blur(8px)",
  sidebar.style.filter = "blur(8px)",
   feedback.style.filter = "none";
-  $('#TB_overlay').css('visibility','visible');
-  $('#TB_overlay').css('background-color','rgb(0,165,196)');
-  $('#TB_overlay').css('opacity','0.1');
-  $('#sidebar').css('background-color','rgb(230,246,249)');
+
 }
 emailbtn.onclick = function() {
   emailfeedback.style.display = "flex",
@@ -139,10 +133,7 @@ emailbtn.onclick = function() {
   mainpage.style.filter = "blur(8px)",
 sidebar.style.filter = "blur(8px)",
   feedback.style.filter = "none";
-  $('#TB_overlay').css('visibility','visible');
-  $('#TB_overlay').css('background-color','rgb(0,165,196)');
-  $('#TB_overlay').css('opacity','0.1');
-  $('#sidebar').css('background-color','rgb(230,246,249)');
+
 
 }
 footeremail.onclick = function() {
@@ -151,10 +142,7 @@ footeremail.onclick = function() {
   mainpage.style.filter = "blur(8px)",
 sidebar.style.filter = "blur(8px)",
   feedback.style.filter = "none";
-  $('#TB_overlay').css('visibility','visible');
-  $('#TB_overlay').css('background-color','rgb(0,165,196)');
-  $('#TB_overlay').css('opacity','0.1');
-  $('#sidebar').css('background-color','rgb(230,246,249)');
+
 }
 sidebarmail.onclick = function() {
   emailfeedback.style.display = "flex",
@@ -162,10 +150,7 @@ sidebarmail.onclick = function() {
   mainpage.style.filter = "blur(8px)",
 sidebar.style.filter = "blur(8px)",
   feedback.style.filter = "none";
-  $('#TB_overlay').css('visibility','visible');
-  $('#TB_overlay').css('background-color','rgb(0,165,196)');
-  $('#TB_overlay').css('opacity','0.1');
-  $('#sidebar').css('background-color','rgb(230,246,249)');
+
 }
 
 closefbc.onclick = function() {
@@ -177,10 +162,7 @@ closefbc.onclick = function() {
     feedback.style.visibility = "hidden",
   sidebar.style.filter = "none",
    mainpage.style.filter = "none";
-   $('#TB_overlay').css('visibility','hidden');
-        $('#TB_overlay').css('background-color','rgb(0,165,196)');
-        $('#TB_overlay').css('opacity','0');
-        $('#sidebar').css('background-color','white');
+
 }
 
 closefbcall.onclick = function() {
@@ -188,10 +170,7 @@ closefbcall.onclick = function() {
   callfeedback.style.visibility = "hidden",
    sidebar.style.filter = "none",
    mainpage.style.filter = "none";
-   $('#TB_overlay').css('visibility','hidden');
-        $('#TB_overlay').css('background-color','rgb(0,165,196)');
-        $('#TB_overlay').css('opacity','0');
-        $('#sidebar').css('background-color','white');
+
 }
 
 closefbemail.onclick = function() {
@@ -199,10 +178,7 @@ closefbemail.onclick = function() {
    emailfeedback.style.visibility = "hidden",
    sidebar.style.filter = "none",
    mainpage.style.filter = "none";
-   $('#TB_overlay').css('visibility','hidden');
-        $('#TB_overlay').css('background-color','rgb(0,165,196)');
-        $('#TB_overlay').css('opacity','0');
-        $('#sidebar').css('background-color','white');
+
 }
 
 window.onclick = function(event) {
@@ -212,10 +188,7 @@ window.onclick = function(event) {
     feedback.style.display = "none",
      sidebar.style.filter = "none",
      mainpage.style.filter = "none";
-     $('#TB_overlay').css('visibility','hidden');
-        $('#TB_overlay').css('background-color','rgb(0,165,196)');
-        $('#TB_overlay').css('opacity','0');
-        $('#sidebar').css('background-color','white');
+
   }
 }
 /* многоуровневое меню*/
@@ -643,7 +616,6 @@ form9.addEventListener(
 
 
 /*     */
-
 
 
 

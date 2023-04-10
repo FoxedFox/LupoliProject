@@ -292,8 +292,7 @@
 
 .swiper-button-more,
 .swiper-rtl .swiper-button-more{
-    right: 50%;
-    bottom: 1%;
+    right: 47%;
     top: auto;
     transform: rotate(-90deg);
     font-size: 30px;
